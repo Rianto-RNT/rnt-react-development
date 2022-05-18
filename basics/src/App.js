@@ -1,5 +1,5 @@
 import { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -7,18 +7,29 @@ class App extends Component {
     super();
 
     this.state = {
-      string: "Hello RNT",
+      karakter: [
+        {
+          id: "001",
+          nama: "Iron Man",
+        },
+        {
+          id: "002",
+          nama: "Ronin",
+        },
+        {
+          id: "003",
+          nama: "Gundala",
+        },
+      ],
     };
   }
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({string: 'Hello, my name is Rian.'})}>Change Text</button>
-        </header>
+        {this.state.karakter.map((karakter) => (
+          <h4 key={karakter.id}>{karakter.nama}</h4>
+        ))}
       </div>
     );
   }
