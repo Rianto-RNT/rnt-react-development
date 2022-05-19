@@ -1,5 +1,4 @@
 import { Component } from "react";
-// import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -7,28 +6,21 @@ class App extends Component {
     super();
 
     this.state = {
-      karakter: [
-        {
-          id: "001",
-          nama: "Iron Man",
-        },
-        {
-          id: "002",
-          nama: "Ronin",
-        },
-        {
-          id: "003",
-          nama: "Gundala",
-        },
-      ],
+      karakter: [],
     };
+  }
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((users) => this.setState({ karakter: users }));
   }
 
   render() {
     return (
       <div className="App">
         {this.state.karakter.map((karakter) => (
-          <h4 key={karakter.id}>{karakter.nama}</h4>
+          <h4 key={karakter.id}>{karakter.name}</h4>
         ))}
       </div>
     );
