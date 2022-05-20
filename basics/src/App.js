@@ -8,6 +8,7 @@ class App extends Component {
 
     this.state = {
       karakter: [],
+      searchField: "",
     };
   }
 
@@ -20,6 +21,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <input
+          type="search"
+          placeholder="cari karakter...."
+          onChange={(e) => {
+            this.setState({ searchField: e.target.value }, () =>
+              console.log(this.state)
+            );
+          }}
+        />
         <CardList karakter={this.state.karakter} />
       </div>
     );
