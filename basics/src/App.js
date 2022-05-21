@@ -19,18 +19,19 @@ class App extends Component {
   }
 
   render() {
+    const { karakter, searchField } = this.state;
+    const filteredKarakter = karakter.filter((karakter) =>
+      karakter.name.toLowerCase().includes(searchField.toLowerCase())
+    );
+
     return (
       <div className="App">
         <input
           type="search"
           placeholder="cari karakter...."
-          onChange={(e) => {
-            this.setState({ searchField: e.target.value }, () =>
-              console.log(this.state)
-            );
-          }}
+          onChange={(e) => this.setState({ searchField: e.target.value })}
         />
-        <CardList karakter={this.state.karakter} />
+        <CardList karakter={filteredKarakter} />
       </div>
     );
   }
