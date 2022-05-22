@@ -78,12 +78,72 @@ or
  yarn start
 ```
 
+## Updating packages and latest version of react
+
+### 1) Updating Packages
+
+Open Terminal
+
+```sh
+ git clone **Link HTTP/SSH Repository
+ cd ** Into directory folder
+```
+
+remove yarn.lock
+
+```sh
+ls
+rm -rf yarn.lock
+```
+
+update dev dependency
+
+```sh
+npm update -D
+```
+
+if vulnerabilities found
+
+```sh
+npm audit fix
+```
+
+install npm dependencies
+
+```sh
+npm install
+```
+
+repeate if vulnerabilities founded again
+try to fix any issue
+
+```sh
+npm audit fix
+npm audit
+```
+
+Run the App
+
+```sh
+npm start
+```
+
+### 2) Update latest version React to Github
+
+```sh
+code .
+git add -A
+git commit -m "Updated packages to latest version, remove and fixed any vulderabilities"
+git push origin **branch_name
+```
+
 ## Build With
 
 - [Node.js](https://nodejs.org/en) - JS runtime environment
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Firebase](https://firebase.google.com/) - Authentication — user login and identity
 - [Firebase-admin](https://firebase.google.com/) - lets you interact with Firebase from privileged environments to perform actions
+- [Google Fonts](https://fonts.google.com/?query=open+sans+condensed&selection.family=Open+Sans+Condensed:300) - Great Font for your web app
 - [Sash](https://themeforest.net/item/sash-bootstrap-5-admin-dashboard-template/35183671) - Admin template you can customize your dashboard effortlessly within no time.
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
 - [Git](https://git-scm.com) - Open source distributed version control system
@@ -105,6 +165,7 @@ or
 - Menu Item Component + Style
 - Directory Component + Style
 - Styling Menu Item animation with cubic-bezier
+
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
@@ -118,6 +179,10 @@ or
 - [About Remote Repository - Github ](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
 
 - [Generating a new SSH key and adding it to the ssh-agent ](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+- [ES6-Template-Strings ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
+- [cubic-bezier-docs ](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
 
 ## Future Updates
 
