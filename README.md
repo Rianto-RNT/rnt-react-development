@@ -101,7 +101,10 @@ or
 
 - Homepage
   - SASS setup
-
+  - refactoring homepage
+- Menu Item Component + Style
+- Directory Component + Style
+- Styling Menu Item animation with cubic-bezier
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
