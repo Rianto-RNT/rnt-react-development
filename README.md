@@ -53,15 +53,27 @@ heroku open
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
 
 ```sh
-npx -p npm@6 npm i --legacy-peer-deps
  npm i
  npm start
+
+```
+
+or
+
+```sh
+ yarn i
+ yarn start
+
 ```
 
 ## Run App in Development for client / React
 
 ```sh
  npm start
+```
+or
+```sh
+ yarn start
 ```
 
 ## Run App in Development for Server / Node
@@ -91,59 +103,17 @@ npx -p npm@6 npm i --legacy-peer-deps
 - [Bootstrap](https://getbootstrap.com/) - front-end open source toolkit for responsive site
 - [Sash](https://themeforest.net/item/sash-bootstrap-5-admin-dashboard-template/35183671) - Admin template you can customize your dashboard effortlessly within no time.
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
-- [Express](http://expressjs.com/) - The web framework used
-- [Mongoose](https://mongoosejs.com/) - Object Data Modelling (ODM) library
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Cloud database service
 - [Postman](https://www.getpostman.com/) - API testing
 - [Git](https://git-scm.com) - Open source distributed version control system
 - [Cloudinary](https://cloudinary.com) - Effortlessly optimize, transform, upload and manage your cloud's assets.
 - [Stripe](hhttps://stripe.com/) - Online Payment Processing API payment gateway
-- [MapQuest Dev API](https://developer.mapquest.com) - Free online web mapping service
 - [Heroku](https://www.heroku.com/) - Cloud platform
 - [Digital Ocean](https://www.digitalocean.com) - Cloud platform
 
-## NPM Packages Frontend Development
+## NPM / YARN Packages Frontend Development
 
-- [ant-design](https://github.com/ant-design/ant-design/)
-- [swiper](https://github.com/nolimits4web/swiper)
-- [slick](https://github.com/kenwheeler/slick)
-- [sweetalert2](https://github.com/sweetalert2/sweetalert2)
-- [redux](https://github.com/reduxjs/redux)
-- [axios](https://github.com/axios/axios)
-- [eslint](https://github.com/eslint/eslint)
-- [eslint-config-airbnb](https://github.com/airbnb/javascript)
-- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-- [eslint-plugin-import](https://github.com/prettier/eslint-config-prettier)
-- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
-- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
-- [eslint-plugin-prettier](https://github.com/mysticatea/eslint-plugin-node)
-- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
-- [prettier](https://github.com/prettier/prettier)
-- [webpack](https://github.com/webpack/webpack)
-
-## NPM Packages Backend Development
-
-- [firebase-admin](github.com/firebase/firebase-admin-node)
-- [dotenv](https://github.com/motdotla/dotenv#readme)
-- [morgan](https://github.com/expressjs/morgan)
-- [multer](https://github.com/expressjs/multer)
-- [body-parser](https://github.com/expressjs/body-parser#readme)
-- [Uniqueid](github.com/adamhalasz/uniqid)
-- [ndb](https://github.com/GoogleChromeLabs/ndb)
-- [prettier](https://github.com/prettier/prettier)
-- [nodemon](https://github.com/remy/nodemon)
-- [slugify](https://github.com/simov/slugify)
-- [bcryptjs](https://github.com/dcodeIO/bcrypt.js#readme)
-- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
-- [express-mongo-sanitize](https://github.com/fiznool/express-mongo-sanitize#readme)
-- [xss-clean](https://github.com/jsonmaur/xss-clean)
-- [helmet](https://github.com/helmetjs/helmet)
-- [hpp](https://github.com/analog-nico/hpp)
-- [express-rate-limit](https://github.com/nfriedly/express-rate-limit)
-- [express-jwt](github.com/auth0/express-jwt)
-- [cors](https://github.com/expressjs/cors)
-- [validator](https://www.npmjs.com/package/validator)
-- [compression](https://www.npmjs.com/package/compression)
+- [Node-Sass](https://github.com/sass/node-sass)
 
 ## Demonstration
 
