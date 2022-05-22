@@ -431,9 +431,13 @@ npm i express body-parser mongoose cors morgan express-jwt firebase-admin jsonwe
 
 ## Articles
 
-- [mongodb atlas documentation](https://docs.atlas.mongodb.com/getting-started/)
+- [Handling Event - React](https://reactjs.org/docs/handling-events.html)
 
-- [How to use mongodb atlas](https://kaloraat.com/articles/how-to-use-mongodb-atlas)
+- [Renaming The Default Branch From Master ](https://github.com/github/renaming)
+
+- [About Remote Repository - Github ](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
+
+- [Generating a new SSH key and adding it to the ssh-agent ](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ## Future Updates
 
