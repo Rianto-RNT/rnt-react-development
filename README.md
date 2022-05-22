@@ -1,10 +1,10 @@
 <h1 align="center">
   <br>
-  RNT Creative Cloth - React frontend web development Specifications
+  RNT Cloth - React frontend web development Specifications
   <br>
 </h1>
 
-<h4 align="center">React Development (w/ Redux, Hooks, GraphQL ) for RNT Creative Cloth, which is an Aplication directory website built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
+<h4 align="center">React Development (w/ Redux, Hooks, GraphQL ) for RNT Cloth, which is an Aplication directory website built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
 
  <p align="center">
  <a href="#deployed-version">Demo</a> •
@@ -21,15 +21,15 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : https://rian-bootcamp.herokuapp.com/
+Live demo (Feel free to visit) 👉 : https://rnt-cloth.herokuapp.com/
 
 ## API Usage
 
 Check:
 
-[Bootcamp Booking API Documentation Postman](https://documenter.getpostman.com/view/16994323/UVkiSJNz)
+[RNT Cloth API Documentation Postman](https://documenter.getpostman.com/view/16994323/UVkiSJNz)
 
-[Bootcamp Booking API Documentation Swagger](https://app.swaggerhub.com/apis-docs/rnt-development-one/bootcamp-booking_api/1.0)
+[RNT Cloth API Documentation Swagger](https://app.swaggerhub.com/apis-docs/rnt-development-one/bootcamp-booking_api/1.0)
 
 for more info.
 
@@ -71,27 +71,11 @@ or
 ```sh
  npm start
 ```
+
 or
+
 ```sh
  yarn start
-```
-
-## Run App in Development for Server / Node
-
-```sh
- npm run dev
-```
-
-## Import Data to Database
-
-```sh
- node seeder -import
-```
-
-## Import Data to Database
-
-```sh
- node seeder -destroy
 ```
 
 ## Build With
@@ -100,16 +84,12 @@ or
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Firebase](https://firebase.google.com/) - Authentication — user login and identity
 - [Firebase-admin](https://firebase.google.com/) - lets you interact with Firebase from privileged environments to perform actions
-- [Bootstrap](https://getbootstrap.com/) - front-end open source toolkit for responsive site
 - [Sash](https://themeforest.net/item/sash-bootstrap-5-admin-dashboard-template/35183671) - Admin template you can customize your dashboard effortlessly within no time.
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
-- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Cloud database service
-- [Postman](https://www.getpostman.com/) - API testing
 - [Git](https://git-scm.com) - Open source distributed version control system
 - [Cloudinary](https://cloudinary.com) - Effortlessly optimize, transform, upload and manage your cloud's assets.
-- [Stripe](hhttps://stripe.com/) - Online Payment Processing API payment gateway
+- [Stripe](https://stripe.com/) - Online Payment Processing API payment gateway
 - [Heroku](https://www.heroku.com/) - Cloud platform
-- [Digital Ocean](https://www.digitalocean.com) - Cloud platform
 
 ## NPM / YARN Packages Frontend Development
 
@@ -117,287 +97,14 @@ or
 
 ## Demonstration
 
-### 1) User Authentication client side using firebase
+### Development Process RNT Cloth
 
-- Home
-  - Pagination
-  - Select specific fields in result
-  - Limit number of results
-  - Filter by fields
-- Login
-  - email
-  - Password
-- Register
-  - Email registration
-- registration complete
-  - Redirect link from firebase then you can completly login as a user/admin
-- Forgot Password
-  - User can reset password using Forgot password menu
-  - Validation on update
-- Header
-  - Home menu
-  - Login menu
-  - Register menu
-  - User and logout menu
-
-### 2) Before We Start
-
-- We have complete a first major section in client side
-- However we want to use our node server with mongodb
-- That means the firebase client-side implementation pretty much ends here
-- we'll use firebase to only log the user and get token (authentication)
-
-- In our backend we will validate thet token using firebase admin so that our App is well secure
-- what i mean by secure is that if we dont check the validity of token in the backend then anyone can send anything as a token to get access to protected routes/resource
-
-- Once we implement fire base in backend, when user register or login to our app, we will create or update user in mongodb
-
-- then we will comeback to our login/register page and make some adjustments, so then when user login, the response is from our backend.
-
-### 3) Development Process
-
-- Setup Server and Install Dependencies
-
-```sh
-npm i express body-parser mongoose cors morgan express-jwt firebase-admin jsonwebtoken nodemon dotenv
-```
-
-- Connect to NoSQL Database
-  - Local mongodb server
-  - Mongodb Atlas
-- Hit Routes Endpoint Testing
-- Setup Controllers
-  - Auth
-  - User
-- Create Model
-  - User
-- Middleware
-  - Auth
-- API User Response
-  - When user login, save user data to database.
-- Current User From API
-  - When user register, save user data to database.
-  - Refactor Create or update user function in react
-  - Service folder in client side for calling's API endpoint from server
-- Role Base on Redirect
-  - If user role = subscriber then redirect to user history page
-  - If user role = admin then redirect to admin dashboard page
-- Redirect Count Down
-  - When user need to go to user history or Checkout (etc) without login then rediret to login page
-  - show loading animation countdown when redirect in 5 second
-- Sitebar Nav User History
-  - creating User navbar component : User history, Password change, wishlist, etc.
-- Change Password Feature
-  - Current user login can update their own password
-  - authentication from firebase service
-  - change password form
-  - validate all element, set loading, etc
-- Admin Role authentication and athorization
-  - Protecting routes for admin role (Backend)
-  - Implementing middleware for admin role (backend)
-  - When Admin login then redirect to admin dashboard (Frontend)
-  - Create admin page (Frontend)
-- Admin Authorization
-  - Create Product
-  - Must have Category
-  - Must have Sub Category
-  - CRUD in Dashboard panel
-- Category
-  - Category model (Backend)
-  - Category controller and routes CRUD
-  - Category CRUD Endpoint in frontend service
-- Dynamic Dashboard Link
-  - when user with role subscriber login then show option to their own history/settings/dashboard
-  - when user with role admin login then show option to their own dashboard / Admin dashboard
-- Admin Sidebar Navigation
-  - List of admin sidebar navigation menu: Dashboard, Product, All Product, Category, Sub-Category, Coupon, and Password.
-- Category Create and show of all list the category
-  - Category form to create category
-- Category Render and delete
-  - Delete menu icon in category create admin dashboard
-  - Update menu icon in category create admin dashboard
-  - Category Delete Functionality
-- Category update
-  - category update page
-  - update category and redirect to admin/category
-  - refactor code for category Create and update form
-- Search Filter Category (admin dasboard)
-  - admin can search category by name of the product category
-- Code Refactor search filter
-  - Move search category code to local search
-- Subcategory CRUD
-  - create Subcategory model and populate to category
-  - create subcategory Routes and controllers
-- Subcategory Service (Frontend)
-  - Subcategory page and services
-- Subcategory Create
-  - Calling API endpoint for subcategory service frontend enhanced
-  - showing subcategory and remove
-- Update Subcategory in admin dashboard
-
-- Product (backend)
-
-  - Create product model/schema mongoose
-  - Product Routes and Controller
-  - Product Controller - Get all product from database
-  - Cloud Upload endpoints
-  - Implementation Cloudinary SDK
-  - Product image upload and delete route, controller and utils
-  - List all product endpoints
-  - Product Delete
-  - Product Update Endpoint
-  - New Arrival Product with sort, order and limit
-  - Get total product count (pagination)
-  - Star Ratings / average rating banckend
-  - Related Product endpoint
-  - Reformat Subcategory
-  - Search and Filtering
-  - Search redux setup
-  - Filtering Product by Price range
-  - Filtering product by category
-  - Filter by Star Ratings
-  - Filtering by Subcategory
-  - Filtering Product by Shipping, Color and Brand
-  - Cart Model
-  - User Cart Controller and routes
-  - Get user cart from database
-  - Empty/remove user cart in checkout
-  - Save User address in checkout
-  - Coupon Shcema model
-  - Coupon Routes and Controller
-  - Apply discount Coupon in user Cart Enpoint
-  - Create Payment Intent stripe, routes, and controller
-  - Total After Discount backend
-  - Order Schema Model
-  - Order Controller and routes
-  - decrement product quantity and increment product sold when user pay a products
-  - Get All User Orders (controllers and routes)
-  - Admin Controller and routes (user orders status)
-  - User product wishlist controller and routes
-  - user Cash On Delivery Order (backend)
-
-- Product (frontend)
-  - Create product page, product services and routes (admin autorization)
-  - create product form
-  - Frist test to create Product from client to send to server
-  - Alert and reload page after product was created
-  - Error handler when create duplicate value name or title in product
-  - Refactor Product code - component and page
-  - Create product with category
-  - get subcategory base on parent category
-  - subcategory props - calling subcategory when choosing category in create product on admin dashboard
-  - Multiple select for subcategory form
-  - create product with subcategory array
-  - file / image resize in react
-  - multiple image upload (cloud storage)
-  - product image preview when upload in admin dasboard
-  - Product create with multiple images
-  - Fetch all products in admin dashboard
-  - Admin products card
-  - All product page admin dashboard
-  - Default image, edit-delete icon, and sort the description
-  - Delete Product
-  - Product slug from router (update product)
-  - Product Update Component
-  - Prepopulate shipping color and brand (Update component)
-  - Prepopulate Caategory in product update
-  - Prepopulate Subcategory in product update
-  - Category and Subcategory Sync on update product feature
-  - Image Upload in Update Product feature
-  - Product Update (Final)
-  - Fetch product in home page
-  - Product Card in Home Page
-  - Fetch product in card - Home Page
-  - Product loader card skeleton in home page
-  - Calling reuseable Product endpoint in home page
-  - New Arrival Card component
-  - Best Seller Card Component
-  - Product Detail page
-  - Product detail carausel, title, price and description
-  - Handle no product images in product details
-  - Product detail specification
-  - Tab menu for description and specification in Product detail
-  - display Star Rating in product detail (log)
-  - star ratings modal
-  - Login to leave ratings
-  - login to leave ratings and redirect page to home
-  - API Request for product star ratings
-  - Show user existing ratings in product they vote
-  - Show Average rating total in product detail
-  - Show Average rating total product in home page
-  - Show related product in product detail
-  - Category list in home page
-  - fetch Single category test
-  - Click category then show product only with the same category (ex. apple => product : apple)
-  - Category page with product
-  - Subcategory page with product showing
-  - Shop Page menu
-  - search by text title
-  - Filter product by price range (slider)
-  - Filtering product by category
-  - reset filtering when choose one filter/search (ex, search, category, price, etc)
-  - Filter product by Star rating
-  - Filter product by subcategory
-  - Filter product by Brands
-  - Filter product by Color
-  - Filter product by Shipping
-  - Add product to local storage
-  - Cart in redux state
-  - dispatch add to cart to redux
-  - Cart Page Setup {JSON.Stringify}
-  - Cart Total
-  - if user not login give option to login page then after login redirect to cart for checkout.
-  - Cart item in table
-  - Product cart Quantity increase and decrease amount stock
-  - Remove product from cart (localStorage)
-  - Product cart drawer feature
-  - Checkout page setup
-  - Save cart request
-  - Get user cart in checkout page
-  - user Checkout order
-  - Empty user cart in checkout pages
-  - User Address in checkout
-  - Save user address in checkout pages
-  - Coupon Page in admin dashboard
-  - Create Coupon in admin dashboard
-  - Coupon List and delete in admin dashboard
-  - Apply Coupon in Checkout page (console.log)
-  - Coupon Applied and Set total discount price (Checkout page)
-  - Coupon Invalid and coupon success applied messages in checkout pages
-  - Coupon in redux
-  - React Stripe Setup in frontend
-  - Stripe Checkout component
-  - Successful payment
-  - show discount and coupon applied in frontend
-  - empty user cart when create order
-  - disable button / Out of stock when quantity unavailabel or equal to zero
-  - User orders in purchase history
-  - Purchase order in card (user history)
-  - Show user orders product list table in user history
-  - Show user Payment info in User History page
-  - Invoice PDF view and Download invoice PDF
-  - Invoice Component
-  - Download Invoice as PDF file
-  - Load orders in admin dashboard
-  - User Order Status update in admin dashboard
-  - User Product order table list in admin dashboard
-  - user Wishlist services in frontend
-  - Wishlist In Frontend (user)
-  - (COD) Cash On Delivery for payment option
-  - create cash on delivery order or redirect to payment page
-  - Cash on delivery order success, coupon apply and status order
-  - Code splitting wit lazy and suspense
-  - Admin password change in admin dashboard
+- Homepage
+  - SASS setup
 
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
-- Register complete not working
-- Pagination/loadmore for product list in admin dashboard
-- Update all product with the real image, description, title, etc.
-- Add newline when showing description in product detail.
-- Fix Price number in product detail.
-- show total/Length customer review
 
 ## Articles
 
@@ -425,72 +132,8 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 ## Route Structure Client Side
 
-> / (Home Page)
-
-> /cart
-
-> /checkout
-
-> /payment
-
-> /category/:slug
-
-> /subcategory/:slug
-
-> /login
-
-> /register
-
-> /complete-registration
-
-> /forgot-password
-
-> /product/:slug
-
-> /my-account/history
-
-> /my-account/wishlish
-
-> /admin/dashboard
-
-> /admin/category
-
-> /admin/category/:slug
-
-> /admin/subcategory
-
-> /admin/coupon
-
-> /admin/password
-
-> /admin/product
-
-> /admin/products
-
-> /admin/product/:slug
-
-## Route Structure Server Side
-
-> /admin/orders
-
-> /create-or-update-user
-
-> /current-user
-
-> /current-admin
-
-> /category
-
-> /subcategory
-
-> /coupon
-
-> /product
-
-> /create-payment-intent
-
-> /user
+> /
 
 # Acknowledgement
 
-- This project is part of the online course I've taken at Udemy. Thanks to Ryan Dhungel for creating this awesome course! Link to the course: [React Redux Ecommerce - Master MERN Stack Web Development](https://www.udemy.com/course/react-redux-ecommerce/)
+- This project is part of the online course I've taken at Udemy. Thanks to Andrei Neagoie for creating this awesome course! Link to the course: [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/?src=sac&kw=react+developer+2022)
