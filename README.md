@@ -153,7 +153,8 @@ git push origin **branch_name
 
 ## NPM / YARN Packages Frontend Development
 
-- [Node-Sass](https://github.com/sass/node-sass)
+- [node-sass](https://github.com/sass/node-sass)
+- [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 
 ## Demonstration
 
@@ -165,6 +166,9 @@ git push origin **branch_name
 - Menu Item Component + Style
 - Directory Component + Style
 - Styling Menu Item animation with cubic-bezier
+-Routing in our project
+  - install react-router-dom
+  
 
 ## TODO to fix
 
