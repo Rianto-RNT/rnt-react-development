@@ -178,6 +178,10 @@ git push origin **branch_name
 
 - [Handling Event - React](https://reactjs.org/docs/handling-events.html)
 
+- [React-router-documentation](https://reacttraining.com/react-router/web/guides/quick-start)
+
+- [Higher-Order-Components](https://reactjs.org/docs/higher-order-components.html)
+
 - [Renaming The Default Branch From Master ](https://github.com/github/renaming)
 
 - [About Remote Repository - Github ](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
