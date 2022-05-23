@@ -174,6 +174,9 @@ git push origin **branch_name
   - collection preview component
   - collection preview style
   - shop page routes
+- Collection item component
+  - collection item style
+  - Routing
 
 ## TODO to fix
 
