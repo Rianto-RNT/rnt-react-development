@@ -166,9 +166,14 @@ git push origin **branch_name
 - Menu Item Component + Style
 - Directory Component + Style
 - Styling Menu Item animation with cubic-bezier
--Routing in our project
+  -Routing in our project
   - install react-router-dom
   - withRouter() - menu item to navigate
+- Shop Page
+  - Shop Data
+  - collection preview component
+  - collection preview style
+  - shop page routes
 
 ## TODO to fix
 
