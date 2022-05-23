@@ -168,7 +168,7 @@ git push origin **branch_name
 - Styling Menu Item animation with cubic-bezier
 -Routing in our project
   - install react-router-dom
-  
+  - withRouter() - menu item to navigate
 
 ## TODO to fix
 
