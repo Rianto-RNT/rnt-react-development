@@ -177,6 +177,10 @@ git push origin **branch_name
 - Collection item component
   - collection item style
   - Routing
+- Header
+  - Header Link
+  - Logo
+  - Shop button and contact button
 
 ## TODO to fix
 
