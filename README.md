@@ -183,6 +183,9 @@ git push origin **branch_name
   - Shop button and contact button
 - Sign In Page
   - Sign In Component
+  - Sign in style
+  - Form input component
+  - Form input style
 
 ## TODO to fix
 
