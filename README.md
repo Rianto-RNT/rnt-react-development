@@ -187,6 +187,7 @@ git push origin **branch_name
   - Form input component
   - Form input style
   - Custom button component
+  - Google sign in authentication (firebase setup)
 
 ## TODO to fix
 
