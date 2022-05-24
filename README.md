@@ -189,6 +189,9 @@ git push origin **branch_name
   - Custom button component
   - Google sign in authentication (firebase setup)
   - Google sign in understanding componentDidMount and componentWillUnmount google authentication
+  - Integrated firebase into Auth page / application
+  - Create sign in and sign out menu in header component
+  - Styling sign in component and custom button
 
 ## TODO to fix
 
