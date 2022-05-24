@@ -186,6 +186,7 @@ git push origin **branch_name
   - Sign in style
   - Form input component
   - Form input style
+  - Custom button component
 
 ## TODO to fix
 
