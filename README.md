@@ -188,6 +188,7 @@ git push origin **branch_name
   - Form input style
   - Custom button component
   - Google sign in authentication (firebase setup)
+  - Google sign in understanding componentDidMount and componentWillUnmount google authentication
 
 ## TODO to fix
 
