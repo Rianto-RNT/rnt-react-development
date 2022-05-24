@@ -181,6 +181,8 @@ git push origin **branch_name
   - Header Link
   - Logo
   - Shop button and contact button
+- Sign In Page
+  - Sign In Component
 
 ## TODO to fix
 
