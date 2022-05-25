@@ -194,6 +194,7 @@ git push origin **branch_name
   - Styling sign in component and custom button
 - Database Firestore
   - Understanding concept
+  - Storing user data in firebase
 
 ## TODO to fix
 
