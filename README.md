@@ -195,6 +195,7 @@ git push origin **branch_name
 - Database Firestore
   - Understanding concept
   - Storing user data in firebase
+  - Storing user data in App
 
 ## TODO to fix
 
