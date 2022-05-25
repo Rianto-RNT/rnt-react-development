@@ -192,6 +192,8 @@ git push origin **branch_name
   - Integrated firebase into Auth page / application
   - Create sign in and sign out menu in header component
   - Styling sign in component and custom button
+- Database Firestore
+  - Understanding concept
 
 ## TODO to fix
 
