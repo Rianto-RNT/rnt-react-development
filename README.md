@@ -196,6 +196,10 @@ git push origin **branch_name
   - Understanding concept
   - Storing user data in firebase
   - Storing user data in App
+- Sign Up Component
+  - sign up style
+  - sign up form
+  - handling fuction
 
 ## TODO to fix
 
