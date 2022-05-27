@@ -144,7 +144,7 @@ git push origin **branch_name
 - [Firebase](https://firebase.google.com/) - Authentication — user login and identity
 - [Firebase-admin](https://firebase.google.com/) - lets you interact with Firebase from privileged environments to perform actions
 - [Google Fonts](https://fonts.google.com/?query=open+sans+condensed&selection.family=Open+Sans+Condensed:300) - Great Font for your web app
-- [Sash](https://themeforest.net/item/sash-bootstrap-5-admin-dashboard-template/35183671) - Admin template you can customize your dashboard effortlessly within no time.
+- [Redux](https://redux.js.org/introduction/getting-started) - Redux is a predictable state container for JavaScript apps.effortlessly within no time.
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
 - [Git](https://git-scm.com) - Open source distributed version control system
 - [Cloudinary](https://cloudinary.com) - Effortlessly optimize, transform, upload and manage your cloud's assets.
@@ -155,6 +155,7 @@ git push origin **branch_name
 
 - [node-sass](https://github.com/sass/node-sass)
 - [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
+- [redux](https://github.com/reduxjs/redux)
 
 ## Demonstration
 
