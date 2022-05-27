@@ -206,7 +206,7 @@ git push origin **branch_name
   - Redux Introduction
     - Concepts
     - redux diagram
-    - [![](https://github.com/Rianto-RNT/Rianto-RNT/blob/main/assets/rnt-banner.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/Redux-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 
 ## TODO to fix
