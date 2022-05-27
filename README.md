@@ -156,6 +156,8 @@ git push origin **branch_name
 - [node-sass](https://github.com/sass/node-sass)
 - [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 - [redux](https://github.com/reduxjs/redux)
+- [redux toolkit](https://github.com/reduxjs/redux)
+- [redux-logger](https://github.com/LogRocket/redux-logger)
 
 ## Demonstration
 
@@ -207,8 +209,11 @@ git push origin **branch_name
   - Sign in with email and password ( in the console )
 - Redux Introduction
   - Concepts
-  - redux diagram
+  - Redux diagram
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/Redux-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Setting up redux, redux logger (middleware), redux tools kit
+  - Create Root reducer
+  - Create User reducer
 
 ## TODO to fix
 
