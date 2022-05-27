@@ -248,6 +248,12 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 > /
 
+> /shop
+
+> /sign-in
+
+> /hats
+
 # Acknowledgement
 
 - This project is part of the online course I've taken at Udemy. Thanks to Andrei Neagoie for creating this awesome course! Link to the course: [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/?src=sac&kw=react+developer+2022)
