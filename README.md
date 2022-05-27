@@ -203,6 +203,11 @@ git push origin **branch_name
   - handling fuction
   - Sign up with email and password ( in the console )
   - Sign in with email and password ( in the console )
+  - Redux Introduction
+    - Concepts
+    - redux diagram
+    - [![](https://github.com/Rianto-RNT/Rianto-RNT/blob/main/assets/rnt-banner.png)](https://github.com/Rianto-RNT/rnt-react-development)
+
 
 ## TODO to fix
 
