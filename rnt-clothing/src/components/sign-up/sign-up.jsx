@@ -21,10 +21,11 @@ class SignUp extends React.Component {
 
   handleSubmit = async (event) => {
     event.preventDefault();
+
     const { displayName, email, password, confirmPassword } = this.state;
 
     if (password !== confirmPassword) {
-      alert("password don't match");
+      alert("passwords don't match");
       return;
     }
 
@@ -33,40 +34,41 @@ class SignUp extends React.Component {
         email,
         password
       );
+
       await createUserProfileDocument(user, { displayName });
+
       this.setState({
         displayName: "",
         email: "",
         password: "",
         confirmPassword: "",
       });
-    } catch (err) {
-      console.error(err);
+    } catch (error) {
+      console.error(error);
     }
   };
 
   handleChange = (event) => {
     const { name, value } = event.target;
+
     this.setState({ [name]: value });
   };
 
   render() {
     const { displayName, email, password, confirmPassword } = this.state;
-
     return (
       <div className="sign-up">
         <h2 className="title">I do not have a account</h2>
-        <span>Sign up wit your email and password</span>
+        <span>Sign up with your email and password</span>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
-            name="diplayName"
+            name="displayName"
             value={displayName}
             onChange={this.handleChange}
             label="Display Name"
             required
           />
-
           <FormInput
             type="email"
             name="email"
@@ -75,7 +77,6 @@ class SignUp extends React.Component {
             label="Email"
             required
           />
-
           <FormInput
             type="password"
             name="password"
@@ -84,7 +85,6 @@ class SignUp extends React.Component {
             label="Password"
             required
           />
-
           <FormInput
             type="password"
             name="confirmPassword"
@@ -93,7 +93,6 @@ class SignUp extends React.Component {
             label="Confirm Password"
             required
           />
-
           <CustomButton type="submit">SIGN UP</CustomButton>
         </form>
       </div>

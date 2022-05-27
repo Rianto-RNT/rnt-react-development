@@ -200,6 +200,7 @@ git push origin **branch_name
   - sign up style
   - sign up form
   - handling fuction
+  - Sign up with email and password ( in the console )
 
 ## TODO to fix
 
