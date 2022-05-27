@@ -214,6 +214,9 @@ git push origin **branch_name
   - Setting up redux, redux logger (middleware), redux tools kit
   - Create Root reducer
   - Create User reducer
+  - Create store (middleware)
+  - Create User actions 
+
 
 ## TODO to fix
 
