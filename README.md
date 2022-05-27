@@ -193,14 +193,16 @@ git push origin **branch_name
   - Integrated firebase into Auth page / application
   - Create sign in and sign out menu in header component
   - Styling sign in component and custom button
-- Database Firestore
+- Database Firestore (console firebase)
   - Understanding concept
   - Storing user data in firebase
   - Storing user data in App
 - Sign Up Component
-  - sign up style
-  - sign up form
-  - handling fuction
+  - Sign up style
+  - Sign up form
+  - Eandling fuction
+  - Enable firebase sign in and sign up with google
+  - Enable firebase sign in and sign up with email and password
   - Sign up with email and password ( in the console )
   - Sign in with email and password ( in the console )
 - Redux Introduction
