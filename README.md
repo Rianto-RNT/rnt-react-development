@@ -217,6 +217,10 @@ git push origin **branch_name
   - Create store (middleware)
   - Create User actions 
   - Connect() and mapStateToProps in header component
+  - Implementing User reducer and user action - log in the console
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-one.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-two.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - implementing mapDispatchtoProps()
 
 
 ## TODO to fix
