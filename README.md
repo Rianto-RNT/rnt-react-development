@@ -216,6 +216,7 @@ git push origin **branch_name
   - Create User reducer
   - Create store (middleware)
   - Create User actions 
+  - Connect() and mapStateToProps in header component
 
 
 ## TODO to fix
