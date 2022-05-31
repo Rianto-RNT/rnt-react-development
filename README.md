@@ -215,7 +215,7 @@ git push origin **branch_name
   - Create Root reducer
   - Create User reducer
   - Create store (middleware)
-  - Create User actions 
+  - Create User actions
   - Connect() and mapStateToProps in header component
   - Implementing User reducer and user action - log in the console
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-one.png)](https://github.com/Rianto-RNT/rnt-react-development)
@@ -223,7 +223,9 @@ git push origin **branch_name
   - implementing mapDispatchtoProps()
   - User redirect and user action type
   - Cart Component in header
-
+    - Cart icon
+    - Cart menu dropdown
+    - implementing checkout button in cart dropdown
 
 ## TODO to fix
 
