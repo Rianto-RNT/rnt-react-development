@@ -221,6 +221,8 @@ git push origin **branch_name
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-one.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-two.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - implementing mapDispatchtoProps()
+  - User redirect and user action type
+  - Cart Component in header
 
 
 ## TODO to fix
