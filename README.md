@@ -226,6 +226,15 @@ git push origin **branch_name
     - Cart icon
     - Cart menu dropdown
     - implementing checkout button in cart dropdown
+  - Implementing redux in cart
+  - Cart Reducer
+  - Cart Action
+  - Cart Types
+  - toggle cart hidden in icon header cart
+  - mapStateToProps currentUser and hidden toggle in cart dropdown component
+  - Logger result return boolean (True / False):
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-true.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-false.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
