@@ -239,6 +239,10 @@ git push origin **branch_name
     - Implementing custom button in collection item
     - Invert style custom button
     - Styling collection item
+  - Cart item reducer
+    - implementing cart item in reducer, actions, and types
+    - mapDispatchToProps add item in collection item component
+    - refactor code in collection item preview
 
 ## TODO to fix
 
