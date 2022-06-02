@@ -245,6 +245,11 @@ git push origin **branch_name
     - refactor code in collection item preview
     - logger add item in redux:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-reducer-add-item.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Adding multiple items to cart
+    - Create cart utils
+    - implementing cart utils fuction in cart reducer
+    - show quantity item increase by 1 in logger redux:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-utils-add-item-by-increase-quantity.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
