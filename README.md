@@ -243,6 +243,8 @@ git push origin **branch_name
     - implementing cart item in reducer, actions, and types
     - mapDispatchToProps add item in collection item component
     - refactor code in collection item preview
+    - logger add item in redux:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-reducer-add-item.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
