@@ -250,6 +250,11 @@ git push origin **branch_name
     - implementing cart utils fuction in cart reducer
     - show quantity item increase by 1 in logger redux:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-utils-add-item-by-increase-quantity.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Cart Item Component
+    - cart item style
+    - implementing cart item in cart dropdown menu
+  - Selector in redux
+    - cart icon mapStateToProps
 
 ## TODO to fix
 
