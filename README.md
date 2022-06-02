@@ -235,6 +235,10 @@ git push origin **branch_name
   - Logger result return boolean (True / False):
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-true.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-false.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Add to cart styling
+    - Implementing custom button in collection item
+    - Invert style custom button
+    - Styling collection item
 
 ## TODO to fix
 
