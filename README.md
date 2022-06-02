@@ -158,6 +158,7 @@ git push origin **branch_name
 - [redux](https://github.com/reduxjs/redux)
 - [redux toolkit](https://github.com/reduxjs/redux)
 - [redux-logger](https://github.com/LogRocket/redux-logger)
+- [reselect](https://github.com/reduxjs/reselect#readme)
 
 ## Demonstration
 
@@ -255,6 +256,10 @@ git push origin **branch_name
     - implementing cart item in cart dropdown menu
   - Selector in redux
     - cart icon mapStateToProps
+    - install "reselect" library
+    - create cart selector function
+    - implementing reselect in cart selector
+    - refactor code in cart icon and cart dropdown
 
 ## TODO to fix
 
