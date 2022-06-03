@@ -260,6 +260,8 @@ git push origin **branch_name
     - create cart selector function
     - implementing reselect in cart selector
     - refactor code in cart icon and cart dropdown
+  - User Selectors
+    -refactor code using reselect library (createStructuredSelector)
 
 ## TODO to fix
 
