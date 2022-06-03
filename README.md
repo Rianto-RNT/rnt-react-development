@@ -262,6 +262,11 @@ git push origin **branch_name
     - refactor code in cart icon and cart dropdown
   - User Selectors
     -refactor code using reselect library (createStructuredSelector)
+  - Checkout Page
+    - checkout style
+    - import to app
+    - conditionally cart item in dropdown menu with ternarry
+    - hit checkout button and push to checkout page
 
 ## TODO to fix
 
@@ -305,9 +310,11 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 > /shop
 
-> /sign-in
-
 > /hats
+
+> /checkout
+
+> /sign-in
 
 # Acknowledgement
 
