@@ -270,6 +270,7 @@ git push origin **branch_name
     - Checkout table for product
     - styling checkout page
     - selector for cart total
+    - dispatch action cart dropdown menu when checkout
 
 ## TODO to fix
 
