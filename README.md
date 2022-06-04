@@ -274,7 +274,13 @@ git push origin **branch_name
   - Checkout Item Component
     - checkout item styling
     - import to checkout page
-  
+  - Remove Item From Cart
+    - new cart types
+    - make new function in cart action
+    - cart reducer return new array when remove some item in checkout page
+    - mapItemToProps in checkout item componen and refactor the code
+    - result for CLEAR_ITEM_FROM_CART in redux logger: 
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-item-from-cart.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
