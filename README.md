@@ -271,6 +271,10 @@ git push origin **branch_name
     - styling checkout page
     - selector for cart total
     - dispatch action cart dropdown menu when checkout
+  - Checkout Item Component
+    - checkout item styling
+    - import to checkout page
+  
 
 ## TODO to fix
 
