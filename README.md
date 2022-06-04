@@ -267,6 +267,9 @@ git push origin **branch_name
     - import to app
     - conditionally cart item in dropdown menu with ternarry
     - hit checkout button and push to checkout page
+    - Checkout table for product
+    - styling checkout page
+    - selector for cart total
 
 ## TODO to fix
 
