@@ -279,8 +279,15 @@ git push origin **branch_name
     - make new function in cart action
     - cart reducer return new array when remove some item in checkout page
     - mapItemToProps in checkout item componen and refactor the code
-    - result for CLEAR_ITEM_FROM_CART in redux logger: 
+    - result for CLEAR_ITEM_FROM_CART in redux logger:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-item-from-cart.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - Increase and decrease feature in checkout item
+    - styling the arrow increase-decrease quantity
+    - new Remove Cart types
+    - implementing remove item fuction in cart action
+    - create a function to increase-decrease quantity in cart utils fined ID
+    - make a new switch-case in cart reducer
+    - implementing remove item and add item (increase-decrease quantity) at checkout item in checkout page.
 
 ## TODO to fix
 
