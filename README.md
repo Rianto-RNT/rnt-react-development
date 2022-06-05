@@ -159,6 +159,7 @@ git push origin **branch_name
 - [redux toolkit](https://github.com/reduxjs/redux)
 - [redux-logger](https://github.com/LogRocket/redux-logger)
 - [reselect](https://github.com/reduxjs/reselect#readme)
+- [redux-persist](https://www.npmjs.com/package/redux-persist)
 
 ## Demonstration
 
@@ -310,6 +311,12 @@ git push origin **branch_name
 - [ES6-Template-Strings ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 - [cubic-bezier-docs ](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
+
+- [window.localStorage ](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+- [window.sessionStorage ](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+
+-
 
 ## Future Updates
 
