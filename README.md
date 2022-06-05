@@ -289,6 +289,13 @@ git push origin **branch_name
     - create a function to increase-decrease quantity in cart utils fined ID
     - make a new switch-case in cart reducer
     - implementing remove item and add item (increase-decrease quantity) at checkout item in checkout page.
+- Session Storage + Presistance
+  - Understanding Local Storage and Session Storage
+  - Redux persist
+    - implementing redux persist in store js
+    - refactor root reducer
+    - implementing persist gate in app index
+    - logger: 
 
 ## TODO to fix
 
