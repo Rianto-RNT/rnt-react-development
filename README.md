@@ -295,7 +295,18 @@ git push origin **branch_name
     - implementing redux persist in store js
     - refactor root reducer
     - implementing persist gate in app index
-    - logger: 
+    - logger result: 
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/persist-in-redux-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/persist-in-redux-2.png)](https://github.com/Rianto-RNT/rnt-react-development)    
+- Directory State Into Redux
+  - crate directory reducer (reusable/move product category data)
+  - crate directory selector
+    - pull into root reducer
+  - refactor code in directory component
+  - logger result for sections:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)    
+
+
 
 ## TODO to fix
 
