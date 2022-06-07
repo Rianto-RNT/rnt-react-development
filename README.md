@@ -311,6 +311,9 @@ git push origin **branch_name
     - create shop selectors
       - pull into root reducer
     - refactor code in shop component
+  - Collection Ovrview Component
+    - collection overview style
+    - refactor code shop pages component
 
 ## TODO to fix
 
