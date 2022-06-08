@@ -314,6 +314,11 @@ git push origin **branch_name
   - Collection Ovrview Component
     - collection overview style
     - refactor code shop pages component
+- Advanced Routing
+  - Nested Routing in Shop Page
+    - create Category component
+    - create Category style
+    - refactor code in shop page to access category route
 
 ## TODO to fix
 
