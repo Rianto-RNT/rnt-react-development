@@ -330,6 +330,9 @@ git push origin **branch_name
   - Link url for collection item category in shop page
   - change and naming shop data
   - refactor code in shop selectors
+- Data Flow in RNT Cloth
+  - create selecCollectionForPreview in shop selector
+  - new selector code implementation in collection overview
   
 
 ## TODO to fix
