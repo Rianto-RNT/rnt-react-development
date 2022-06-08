@@ -160,6 +160,7 @@ git push origin **branch_name
 - [redux-logger](https://github.com/LogRocket/redux-logger)
 - [reselect](https://github.com/reduxjs/reselect#readme)
 - [redux-persist](https://www.npmjs.com/package/redux-persist)
+- [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
 
 ## Demonstration
 
@@ -333,6 +334,13 @@ git push origin **branch_name
 - Data Flow in RNT Cloth
   - create selecCollectionForPreview in shop selector
   - new selector code implementation in collection overview
+- Payment (Stripe)
+  - Introduction to Stripe
+  - Stripe Integration to RNT Cloth App
+    - Create Strip button component
+    - install new library: react-stripe-checkout
+    - implement stripe button payment in checkout page
+    - styling the button and add info credit card number for test payment
   
 
 ## TODO to fix
