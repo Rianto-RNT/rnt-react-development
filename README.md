@@ -316,9 +316,9 @@ git push origin **branch_name
     - refactor code shop pages component
 - Advanced Routing
   - Nested Routing in Shop Page
-    - create Category component
-    - create Category style
-    - refactor code in shop page to access category route
+    - create Collections component
+    - create Collections style
+    - refactor code in shop page to access Collections route
 
 ## TODO to fix
 
