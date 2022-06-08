@@ -323,6 +323,14 @@ git push origin **branch_name
     - map category id of product
     - create function to create an url param id
     - connect mapStateToProps in collection component
+- State Normalization
+  - Data Normalization + Collection page
+  - collection item style = change v width (vw)
+  - implementing collection item component in collection page
+  - Link url for collection item category in shop page
+  - change and naming shop data
+  - refactor code in shop selectors
+  
 
 ## TODO to fix
 
