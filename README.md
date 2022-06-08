@@ -319,6 +319,10 @@ git push origin **branch_name
     - create Collections component
     - create Collections style
     - refactor code in shop page to access Collections route
+  - Collection Routing and selector
+    - map category id of product
+    - create function to create an url param id
+    - connect mapStateToProps in collection component
 
 ## TODO to fix
 
