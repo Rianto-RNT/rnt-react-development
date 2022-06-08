@@ -361,7 +361,7 @@ git push origin **branch_name
 
 - [window.sessionStorage ](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
 
--
+- [Optimal Hash Table vs Array ](https://www.kirupa.com/html5/hashtables_vs_arrays.htm)
 
 ## Future Updates
 
