@@ -341,7 +341,7 @@ git push origin **branch_name
     - install new library: react-stripe-checkout
     - implement stripe button payment in checkout page
     - styling the button and add info credit card number for test payment
-  
+  - Finishing touches + look ahead
 
 ## TODO to fix
 
@@ -372,6 +372,10 @@ git push origin **branch_name
 - [Optimal Hash Table vs Array ](https://www.kirupa.com/html5/hashtables_vs_arrays.htm)
 
 - [Stripe Testing - Simulate payments to test your integration ](https://stripe.com/docs/testing#cards)
+
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
+- [heroku-CRA-buildpack](https://github.com/mars/create-react-app-buildpack)
 
 ## Future Updates
 
