@@ -342,6 +342,7 @@ git push origin **branch_name
     - implement stripe button payment in checkout page
     - styling the button and add info credit card number for test payment
   - Finishing touches + look ahead
+  - Deploying to heroku
 
 ## TODO to fix
 
