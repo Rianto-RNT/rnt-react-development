@@ -371,6 +371,8 @@ git push origin **branch_name
 
 - [Optimal Hash Table vs Array ](https://www.kirupa.com/html5/hashtables_vs_arrays.htm)
 
+- [Stripe Testing - Simulate payments to test your integration ](https://stripe.com/docs/testing#cards)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
