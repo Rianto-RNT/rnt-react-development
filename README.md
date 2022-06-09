@@ -21,15 +21,15 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : https://rnt-cloth.herokuapp.com/
+Live demo (Feel free to visit) 👉 : https://rnt-clothing.herokuapp.com/
 
 ## API Usage
 
 Check:
 
-[RNT Cloth API Documentation Postman](https://documenter.getpostman.com/view/16994323/UVkiSJNz)
+[RNT Cloth API Documentation Postman](https://rnt-clothing.herokuapp.com/)
 
-[RNT Cloth API Documentation Swagger](https://app.swaggerhub.com/apis-docs/rnt-development-one/bootcamp-booking_api/1.0)
+[RNT Cloth API Documentation Swagger](https://rnt-clothing.herokuapp.com/)
 
 for more info.
 
@@ -38,14 +38,14 @@ for more info.
 The website is deployed with git into heroku. Below are the steps taken:
 
 ```
-git init
-git add -A
-git commit -m "Commit message"
-heroku login
-heroku create
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-git push heroku master
-heroku open
+$  git init
+$  heroku login
+$  heroku create <heroku_app_name> --buildpack https://github.com/mars/create-react-app-buildpack.git
+$  heroku git:remote -a <heroku_app_name>
+$  git add -A
+$  git commit -m "Commit message"
+$  git push heroku main
+$  heroku open
 ```
 
 ## Installation
