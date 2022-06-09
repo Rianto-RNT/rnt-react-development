@@ -343,6 +343,8 @@ git push origin **branch_name
     - styling the button and add info credit card number for test payment
   - Finishing touches + look ahead
   - Deploying to heroku
+  - Optimizing production build
+    - Remove logger in production build
 
 ## TODO to fix
 
