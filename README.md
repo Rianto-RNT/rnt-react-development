@@ -161,6 +161,7 @@ git push origin **branch_name
 - [reselect](https://github.com/reduxjs/reselect#readme)
 - [redux-persist](https://www.npmjs.com/package/redux-persist)
 - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
+- [styled-components]https://github.com/styled-components/styled-components)
 
 ## Demonstration
 
@@ -345,6 +346,13 @@ git push origin **branch_name
   - Deploying to heroku
   - Optimizing production build
     - Remove logger in production build
+- CSS In Javascript (Styled-component)
+  - Styled Component in RNT Cloth
+    - Create Home page styles
+    - Implementing and refactor styles in Home page
+    - Create Header Style
+    - Implementing and refactor style in Header Component
+
 
 ## TODO to fix
 
@@ -379,6 +387,8 @@ git push origin **branch_name
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 - [heroku-CRA-buildpack](https://github.com/mars/create-react-app-buildpack)
+
+- [BEM - Block Element Modifier](http://getbem.com/)
 
 ## Future Updates
 
