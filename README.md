@@ -347,11 +347,13 @@ git push origin **branch_name
   - Optimizing production build
     - Remove logger in production build
 - CSS In Javascript (Styled-component)
-  - Styled Component in RNT Cloth
+  - Styled Component in RNT Cloth #1
     - Create Home page styles
     - Implementing and refactor styles in Home page
     - Create Header Style
     - Implementing and refactor style in Header Component
+  - Styled component #2
+    - Refactor styled code in header.styles.jsx and header component
 
 
 ## TODO to fix
@@ -418,4 +420,4 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 # Acknowledgement
 
-- This project is part of the online course I've taken at Udemy. Thanks to Andrei Neagoie for creating this awesome course! Link to the course: [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/?src=sac&kw=react+developer+2022)
+- This project is part of the online course I've taken at Udemy. Thanks to Zero To Mastery for creating this awesome course! Link to the course: [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/?src=sac&kw=react+developer+2022)
