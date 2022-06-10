@@ -375,11 +375,15 @@ git push origin **branch_name
     - implementing shop types and action in shop reducer
     - implementing shop reducer in mapStateToProps at shop page
 - HOC Patterns (High Order Component)
-  - With Spinner HOC
+  - With Spinner HOC #1
     - Remove static shop data in RNT Cloth
     - make collection to an ternary operation in shop selector
     - Create with spinner component (loading)
     - create with spinner styles
+  - With Spinner HOC #2
+    - Implementing With Spinner in shop page
+    - set state loading
+    - refactor route in shop page and render the loading using with spinner component
 
 ## TODO to fix
 
