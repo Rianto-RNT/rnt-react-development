@@ -367,6 +367,8 @@ git push origin **branch_name
     - implementing improve function in app.js
     - Little Diagram to store the data into firebase:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Bringing shop data to RNT Cloth app
+    - implementing new function in shop page
 
 
 
