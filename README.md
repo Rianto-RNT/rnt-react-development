@@ -306,7 +306,7 @@ git push origin **branch_name
     - pull into root reducer
   - refactor code in directory component
   - logger result for sections:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)    
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Collections state into redux
     - move shop data into redux folder
     - create shop reducer
@@ -369,9 +369,11 @@ git push origin **branch_name
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Bringing shop data to RNT Cloth app
     - implementing new function in shop page
-
-
-
+  - Adding Shop data to redux
+    - create shop types
+    - create shop actions
+    - implementing shop types and action in shop reducer
+    - implementing shop reducer in mapStateToProps at shop page
 
 ## TODO to fix
 
