@@ -306,7 +306,7 @@ git push origin **branch_name
     - pull into root reducer
   - refactor code in directory component
   - logger result for sections:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)    
   - Collections state into redux
     - move shop data into redux folder
     - create shop reducer
@@ -365,6 +365,8 @@ git push origin **branch_name
   - Moving Shop Data to firebase #2
     - improve new function in firebase utils to store data into firestore
     - implementing improve function in app.js
+    - Little Diagram to store the data into firebase:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 
 
@@ -404,6 +406,8 @@ git push origin **branch_name
 - [heroku-CRA-buildpack](https://github.com/mars/create-react-app-buildpack)
 
 - [BEM - Block Element Modifier](http://getbem.com/)
+
+- [Firebase-batch-documentation](https://firebase.google.com/docs/firestore/manage-data/transactions)
 
 ## Future Updates
 
