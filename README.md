@@ -359,10 +359,13 @@ git push origin **branch_name
   - Firebase Refresher
     - Understanding QueryReferences Object and QuerySnapshot Object
       - Query Snapshot
-  - Moving Shop data to firebase
+  - Moving Shop data to firebase #1
     - create new function in firebase utils
     - implementing new function in app.js
-     
+  - Moving Shop Data to firebase #2
+    - improve new function in firebase utils to store data into firestore
+    - implementing improve function in app.js
+
 
 
 
