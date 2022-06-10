@@ -355,6 +355,9 @@ git push origin **branch_name
   - Styled component #2
     - Refactor styled code in header.styles.jsx and header component
     - Refactor Custom button style and custom button component
+- Firebase Refresher
+  - Understanding QueryReferences Object and QuerySnapshot Object
+    -Query Snapshot
 
 
 ## TODO to fix
