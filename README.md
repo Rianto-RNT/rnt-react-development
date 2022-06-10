@@ -354,6 +354,7 @@ git push origin **branch_name
     - Implementing and refactor style in Header Component
   - Styled component #2
     - Refactor styled code in header.styles.jsx and header component
+    - Refactor Custom button style and custom button component
 
 
 ## TODO to fix
