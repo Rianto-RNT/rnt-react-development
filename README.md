@@ -355,9 +355,15 @@ git push origin **branch_name
   - Styled component #2
     - Refactor styled code in header.styles.jsx and header component
     - Refactor Custom button style and custom button component
-- Firebase Refresher
-  - Understanding QueryReferences Object and QuerySnapshot Object
-    -Query Snapshot
+- Advanced Redux + Firebase
+  - Firebase Refresher
+    - Understanding QueryReferences Object and QuerySnapshot Object
+      - Query Snapshot
+  - Moving Shop data to firebase
+    - create new function in firebase utils
+    - implementing new function in app.js
+     
+
 
 
 ## TODO to fix
