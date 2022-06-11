@@ -386,7 +386,8 @@ git push origin **branch_name
     - refactor route in shop page and render the loading using with spinner component
 - Asynchronous Redux
   - understanding Observables + observer pattern
-  -
+  - Promise pattern
+    - Get data from firebase firestore into RNT Cloth App
 
 ## TODO to fix
 
