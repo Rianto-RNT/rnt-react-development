@@ -384,6 +384,9 @@ git push origin **branch_name
     - Implementing With Spinner in shop page
     - set state loading
     - refactor route in shop page and render the loading using with spinner component
+- Asynchronous Redux
+  - understanding Observables + observer pattern
+  -
 
 ## TODO to fix
 
@@ -422,6 +425,8 @@ git push origin **branch_name
 - [BEM - Block Element Modifier](http://getbem.com/)
 
 - [Firebase-batch-documentation](https://firebase.google.com/docs/firestore/manage-data/transactions)
+
+- [CSS keyframe Animations](https://www.w3schools.com/css/css3_animations.asp)
 
 ## Future Updates
 
