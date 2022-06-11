@@ -161,7 +161,8 @@ git push origin **branch_name
 - [reselect](https://github.com/reduxjs/reselect#readme)
 - [redux-persist](https://www.npmjs.com/package/redux-persist)
 - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
-- [styled-components]https://github.com/styled-components/styled-components)
+- [styled-components](https://github.com/styled-components/styled-components)
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
 
 ## Demonstration
 
@@ -388,6 +389,16 @@ git push origin **branch_name
   - understanding Observables + observer pattern
   - Promise pattern
     - Get data from firebase firestore into RNT Cloth App
+  - Redux Thunk
+    - implementing thunk in store.js middleware
+    - Create new function in shop action with isFetching
+    - create new shop types
+    - implementing new types in shop reducer
+    - create and refactor code with new functions in shop actions
+    - implementing and refactor code in shop page
+    - Fetching collections in redux logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
@@ -428,6 +439,8 @@ git push origin **branch_name
 - [Firebase-batch-documentation](https://firebase.google.com/docs/firestore/manage-data/transactions)
 
 - [CSS keyframe Animations](https://www.w3schools.com/css/css3_animations.asp)
+
+- [Firestore-rest-api-documentation](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
 
 ## Future Updates
 
