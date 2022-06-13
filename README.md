@@ -163,6 +163,7 @@ git push origin **branch_name
 - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
 - [styled-components](https://github.com/styled-components/styled-components)
 - [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Redux Saga](https://github.com/redux-saga/redux-saga)
 
 ## Demonstration
 
@@ -406,6 +407,13 @@ git push origin **branch_name
   - create Collection container
   - create collection-overview containner
   - refactor code in shop page
+- Things to remember: Refactoring is a tradeoff
+- Redux Saga
+  - sagaMiddleware
+    - implementing sagaMiddlewares in store.js 
+    - create shop sagas 
+    - implementing and refactor code in shop page
+
 
 ## TODO to fix
 
@@ -448,6 +456,9 @@ git push origin **branch_name
 - [CSS keyframe Animations](https://www.w3schools.com/css/css3_animations.asp)
 
 - [Firestore-rest-api-documentation](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
+
+- [Generator-function-documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+)
 
 ## Future Updates
 
