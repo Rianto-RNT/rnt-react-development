@@ -399,10 +399,13 @@ git push origin **branch_name
     - Fetching collections in redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
-- Debugging the Code
-  - create new shop selector to reverse loaded collection
-  - implementing selector in shop page.
-  
+  - Debugging the Code
+    - create new shop selector to inverse loaded collection
+    - implementing selector in shop page.
+- Container Pattern
+  - create Collection container
+  - create collection-overview containner
+  - refactor code in shop page
 
 ## TODO to fix
 
