@@ -413,6 +413,8 @@ git push origin **branch_name
     - implementing sagaMiddlewares in store.js 
     - create shop sagas 
     - implementing and refactor code in shop page
+  - Redux Thunk into saga (middleware)
+    - pull actions in from actions to sagas (functions) 
 
 
 ## TODO to fix
