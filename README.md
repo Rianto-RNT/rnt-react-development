@@ -415,7 +415,11 @@ git push origin **branch_name
     - implementing and refactor code in shop page
   - Redux Thunk into saga (middleware)
     - pull actions in from actions to sagas (functions) 
-
+  - Understanding Functions: take(), takeEvery(), takeLatest()
+  - Root Saga
+    - takeLatest() in shop sagas
+    - create root sagas
+    - implementing root saga in store.js
 
 ## TODO to fix
 
