@@ -420,6 +420,15 @@ git push origin **branch_name
     - takeLatest() in shop sagas
     - create root sagas
     - implementing root saga in store.js
+  - Google Sign In Into Sagas
+    - Create new User Types
+    - Create new function in user action / implement user types in user action
+    - implement new case statement useActionTypes in User Reducer
+    - in firebase utils change variable name provider to googleProvider
+    - implementing googleSignInStart in sign-in component
+    - create user sagas
+    - implementing user saga in root saga
+    - refactor code in app.js/app root
 
 ## TODO to fix
 
