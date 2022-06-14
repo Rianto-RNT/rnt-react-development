@@ -429,6 +429,12 @@ git push origin **branch_name
     - create user sagas
     - implementing user saga in root saga
     - refactor code in app.js/app root
+  - Email Sign In into Sagas
+    - refactor code in user types
+    - refactor code in user Action
+    - Refactor code in User Sagas
+    - refactor code in app js
+    - Refactor code at sign-in component
 
 ## TODO to fix
 
