@@ -441,6 +441,13 @@ git push origin **branch_name
     - implement check user session action types in app
     - create new persist function in firebase utils
     - implementing get current user in user saga
+  - Sign Out with Sagas
+    - Create new user type
+    - implement user type in user actions
+    - pull user action in user reducer
+    - pull user reducer into user sagas
+    - implementing user sagas in Header component (signout menu)
+    - create sign-in style and refactor code in sign-in component
 
 ## TODO to fix
 
