@@ -449,14 +449,20 @@ git push origin **branch_name
     - implementing user sagas in Header component (signout menu)
     - create sign-in style and refactor code in sign-in component
   - Clear Cart Sagas
-   - Create new cart type
-    - implement cart types in cart action
-    - implement cart action in cart reducer
-    - create cart sagas js file
-    - pull cart sagas into root sagas
-    - add function to fetch collection start
-    - redux logger result: 
-    
+  - Create new cart type
+  - implement cart types in cart action
+  - implement cart action in cart reducer
+  - create cart sagas js file
+  - pull cart sagas into root sagas
+  - add function to fetch collection start
+  - redux logger result:
+  - Sign Up Saga
+    - Create user types
+    - implementing user types in user action
+    - pull and create new fuction to fire up new user action in user sagas
+    - Implementing new case statement in user reducer
+    - Pull and implementing sign-up saga in sign-up component
+    - Redux logger result: 
 
 ## TODO to fix
 
