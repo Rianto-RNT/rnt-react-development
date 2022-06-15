@@ -410,11 +410,11 @@ git push origin **branch_name
 - Things to remember: Refactoring is a tradeoff
 - Redux Saga
   - sagaMiddleware
-    - implementing sagaMiddlewares in store.js 
-    - create shop sagas 
+    - implementing sagaMiddlewares in store.js
+    - create shop sagas
     - implementing and refactor code in shop page
   - Redux Thunk into saga (middleware)
-    - pull actions in from actions to sagas (functions) 
+    - pull actions in from actions to sagas (functions)
   - Understanding Functions: take(), takeEvery(), takeLatest()
   - Root Saga
     - takeLatest() in shop sagas
@@ -435,6 +435,12 @@ git push origin **branch_name
     - Refactor code in User Sagas
     - refactor code in app js
     - Refactor code at sign-in component
+  - Recreating persistence
+    - create new action types in user types (check user session)
+    - implementing types in user actions
+    - implement check user session action types in app
+    - create new persist function in firebase utils
+    - implementing get current user in user saga
 
 ## TODO to fix
 
@@ -478,8 +484,7 @@ git push origin **branch_name
 
 - [Firestore-rest-api-documentation](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
 
-- [Generator-function-documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
-)
+- [Generator-function-documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 
 ## Future Updates
 
