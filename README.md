@@ -410,59 +410,71 @@ git push origin **branch_name
 - Things to remember: Refactoring is a tradeoff
 - Redux Saga
   - sagaMiddleware
-    - implementing sagaMiddlewares in store.js
-    - create shop sagas
-    - implementing and refactor code in shop page
+    - Implementing sagaMiddlewares in store.js
+    - Create shop sagas
+    - Implementing and refactor code in shop page
   - Redux Thunk into saga (middleware)
-    - pull actions in from actions to sagas (functions)
+    - Pull actions in from actions to sagas (functions)
   - Understanding Functions: take(), takeEvery(), takeLatest()
   - Root Saga
     - takeLatest() in shop sagas
-    - create root sagas
-    - implementing root saga in store.js
+    - Create root sagas
+    - Implementing root saga in store.js
   - Google Sign In Into Sagas
     - Create new User Types
     - Create new function in user action / implement user types in user action
-    - implement new case statement useActionTypes in User Reducer
-    - in firebase utils change variable name provider to googleProvider
-    - implementing googleSignInStart in sign-in component
-    - create user sagas
-    - implementing user saga in root saga
-    - refactor code in app.js/app root
+    - Implement new case statement useActionTypes in User Reducer
+    - In firebase utils change variable name provider to googleProvider
+    - Implementing googleSignInStart in sign-in component
+    - Create user sagas
+    - Implementing user saga in root saga
+    - Refactor code in app.js/app root
+    - Redux logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/google-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/google-sign-in-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Email Sign In into Sagas
-    - refactor code in user types
-    - refactor code in user Action
+    - Refactor code in user types
+    - Refactor code in user Action
     - Refactor code in User Sagas
-    - refactor code in app js
+    - Refactor code in app js
     - Refactor code at sign-in component
+    - Redux logger result: 
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/email-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Recreating persistence
-    - create new action types in user types (check user session)
-    - implementing types in user actions
-    - implement check user session action types in app
-    - create new persist function in firebase utils
-    - implementing get current user in user saga
+    - Create new action types in user types (check user session)
+    - Implementing types in user actions
+    - Implement check user session action types in app
+    - Create new persist function in firebase utils
+    - Implementing get current user in user saga
   - Sign Out with Sagas
     - Create new user type
-    - implement user type in user actions
-    - pull user action in user reducer
-    - pull user reducer into user sagas
-    - implementing user sagas in Header component (signout menu)
-    - create sign-in style and refactor code in sign-in component
+    - Implement user type in user actions
+    - Pull user action in user reducer
+    - Pull user reducer into user sagas
+    - Implementing user sagas in Header component (signout menu)
+    - Create sign-in style and refactor code in sign-in component
+    - Redux logger result: 
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-start.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-success.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Clear Cart Sagas
-  - Create new cart type
-  - implement cart types in cart action
-  - implement cart action in cart reducer
-  - create cart sagas js file
-  - pull cart sagas into root sagas
-  - add function to fetch collection start
-  - redux logger result:
+    - Create new cart type
+    - implement cart types in cart action
+    - implement cart action in cart reducer
+    - create cart sagas js file
+    - pull cart sagas into root sagas
+    - add function to fetch collection start
+    - redux logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Sign Up Saga
     - Create user types
     - implementing user types in user action
     - pull and create new fuction to fire up new user action in user sagas
     - Implementing new case statement in user reducer
     - Pull and implementing sign-up saga in sign-up component
-    - Redux logger result: 
+    - Redux logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
