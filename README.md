@@ -448,6 +448,15 @@ git push origin **branch_name
     - pull user reducer into user sagas
     - implementing user sagas in Header component (signout menu)
     - create sign-in style and refactor code in sign-in component
+  - Clear Cart Sagas
+   - Create new cart type
+    - implement cart types in cart action
+    - implement cart action in cart reducer
+    - create cart sagas js file
+    - pull cart sagas into root sagas
+    - add function to fetch collection start
+    - redux logger result: 
+    
 
 ## TODO to fix
 
