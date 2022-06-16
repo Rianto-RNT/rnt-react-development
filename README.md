@@ -482,7 +482,8 @@ git push origin **branch_name
     - Refactor code in sign-up component using useState
   - UseEffect in RNT Cloth
     - Refactor code in app.js
-    - Refactor code in Shop page 
+    - Refactor code in Shop page
+  - useEffect as ComponentWillUnmount() in collection component
 
 ## TODO to fix
 
