@@ -324,25 +324,25 @@ git push origin **branch_name
     - create Collections style
     - refactor code in shop page to access Collections route
   - Collection Routing and selector
-    - map category id of product
-    - create function to create an url param id
-    - connect mapStateToProps in collection component
+    - Map category id of product
+    - Create function to create an url param id
+    - Connect mapStateToProps in collection component
 - State Normalization
   - Data Normalization + Collection page
-  - collection item style = change v width (vw)
-  - implementing collection item component in collection page
+  - Collection item style = change v width (vw)
+  - Implementing collection item component in collection page
   - Link url for collection item category in shop page
-  - change and naming shop data
-  - refactor code in shop selectors
+  - Change and naming shop data
+  - Refactor code in shop selectors
 - Data Flow in RNT Cloth
-  - create selecCollectionForPreview in shop selector
-  - new selector code implementation in collection overview
+  - Create selecCollectionForPreview in shop selector
+  - New selector code implementation in collection overview
 - Payment (Stripe)
   - Introduction to Stripe
   - Stripe Integration to RNT Cloth App
     - Create Strip button component
-    - install new library: react-stripe-checkout
-    - implement stripe button payment in checkout page
+    - Install new library: react-stripe-checkout
+    - Implement stripe button payment in checkout page
     - styling the button and add info credit card number for test payment
   - Finishing touches + look ahead
   - Deploying to heroku
@@ -362,51 +362,51 @@ git push origin **branch_name
     - Understanding QueryReferences Object and QuerySnapshot Object
       - Query Snapshot
   - Moving Shop data to firebase #1
-    - create new function in firebase utils
-    - implementing new function in app.js
+    - Create new function in firebase utils
+    - Implementing new function in app.js
   - Moving Shop Data to firebase #2
-    - improve new function in firebase utils to store data into firestore
-    - implementing improve function in app.js
+    - Improve new function in firebase utils to store data into firestore
+    - Implementing improve function in app.js
     - Little Diagram to store the data into firebase:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Bringing shop data to RNT Cloth app
-    - implementing new function in shop page
+    - Implementing new function in shop page
   - Adding Shop data to redux
-    - create shop types
-    - create shop actions
-    - implementing shop types and action in shop reducer
-    - implementing shop reducer in mapStateToProps at shop page
+    - Create shop types
+    - Create shop actions
+    - Implementing shop types and action in shop reducer
+    - Implementing shop reducer in mapStateToProps at shop page
 - HOC Patterns (High Order Component)
   - With Spinner HOC #1
     - Remove static shop data in RNT Cloth
-    - make collection to an ternary operation in shop selector
+    - Make collection to an ternary operation in shop selector
     - Create with spinner component (loading)
-    - create with spinner styles
+    - Create with spinner styles
   - With Spinner HOC #2
     - Implementing With Spinner in shop page
-    - set state loading
-    - refactor route in shop page and render the loading using with spinner component
+    - Set state loading
+    - Refactor route in shop page and render the loading using with spinner component
 - Asynchronous Redux
   - understanding Observables + observer pattern
   - Promise pattern
     - Get data from firebase firestore into RNT Cloth App
   - Redux Thunk
-    - implementing thunk in store.js middleware
+    - Implementing thunk in store.js middleware
     - Create new function in shop action with isFetching
-    - create new shop types
-    - implementing new types in shop reducer
-    - create and refactor code with new functions in shop actions
-    - implementing and refactor code in shop page
+    - Create new shop types
+    - Implementing new types in shop reducer
+    - Create and refactor code with new functions in shop actions
+    - Implementing and refactor code in shop page
     - Fetching collections in redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Debugging the Code
-    - create new shop selector to inverse loaded collection
-    - implementing selector in shop page.
+    - Create new shop selector to inverse loaded collection
+    - Implementing selector in shop page.
 - Container Pattern
-  - create Collection container
-  - create collection-overview containner
-  - refactor code in shop page
+  - Create Collection container
+  - Create collection-overview containner
+  - Refactor code in shop page
 - Things to remember: Refactoring is a tradeoff
 - Redux Saga
   - sagaMiddleware
@@ -438,7 +438,7 @@ git push origin **branch_name
     - Refactor code in User Sagas
     - Refactor code in app js
     - Refactor code at sign-in component
-    - Redux logger result: 
+    - Redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/email-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Recreating persistence
     - Create new action types in user types (check user session)
@@ -453,28 +453,33 @@ git push origin **branch_name
     - Pull user reducer into user sagas
     - Implementing user sagas in Header component (signout menu)
     - Create sign-in style and refactor code in sign-in component
-    - Redux logger result: 
+    - Redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-start.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-success.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Clear Cart Sagas
     - Create new cart type
-    - implement cart types in cart action
-    - implement cart action in cart reducer
-    - create cart sagas js file
-    - pull cart sagas into root sagas
-    - add function to fetch collection start
-    - redux logger result:
+    - Implement cart types in cart action
+    - Implement cart action in cart reducer
+    - Create cart sagas js file
+    - Pull cart sagas into root sagas
+    - Add function to fetch collection start
+    - Redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Sign Up Saga
     - Create user types
-    - implementing user types in user action
-    - pull and create new fuction to fire up new user action in user sagas
+    - Implementing user types in user action
+    - Pull and create new fuction to fire up new user action in user sagas
     - Implementing new case statement in user reducer
     - Pull and implementing sign-up saga in sign-up component
     - Redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- React Hook
+  - useState and useEffect
+  - Converting Class Component with useState
+    - Refactor code in sign-in component using useState
+    - Refactor code in sign-up component using useState
 
 ## TODO to fix
 
@@ -519,6 +524,8 @@ git push origin **branch_name
 - [Firestore-rest-api-documentation](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
 
 - [Generator-function-documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+
+- [Why did React add Hook? - React Hook ](https://reactjs.org/docs/hooks-intro.html)
 
 ## Future Updates
 
