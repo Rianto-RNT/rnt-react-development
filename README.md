@@ -1,4 +1,4 @@
-- [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/01-home-page.png)](https://github.com/Rianto-RNT/rnt-react-development)
+[![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/01-home-page.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 <h1 align="center">
   <br>
@@ -579,6 +579,22 @@ git push origin **branch_name
 - [Generator-function-documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 
 - [Why did React add Hook? - React Hook ](https://reactjs.org/docs/hooks-intro.html)
+
+- [useEffect-documentation - React Hook ](https://reactjs.org/docs/hooks-effect.html)
+
+- [JSON-Placeholder-API ](https://jsonplaceholder.typicode.com)
+
+- [Further-reading-hook-rules ](https://reactjs.org/docs/hooks-rules.html)
+
+- [useReducer-documentation - React Hook ](https://reactjs.org/docs/hooks-reference.html#usereducer)
+
+- [Complete-guide-to-useEffect ](https://overreacted.io/a-complete-guide-to-useeffect/)
+
+- [react-redux-hooks-docs ](https://react-redux.js.org/next/api/hooks)
+
+- [react-router-hooks-docs - Github React Training ](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/hooks.md)
+
+
 
 ## Future Updates
 
