@@ -480,6 +480,9 @@ git push origin **branch_name
   - Converting Class Component with useState
     - Refactor code in sign-in component using useState
     - Refactor code in sign-up component using useState
+  - UseEffect in RNT Cloth
+    - Refactor code in app.js
+    - Refactor code in Shop page 
 
 ## TODO to fix
 

@@ -17,8 +17,8 @@ import {
 
 const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   const [userCredentials, setUserCredentials] = useState({
-    email: "",
-    password: "",
+    email: "rianto.projects@gmail.com",
+    password: "test123",
   });
 
   const { email, password } = userCredentials;
