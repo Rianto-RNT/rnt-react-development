@@ -483,7 +483,9 @@ git push origin **branch_name
   - UseEffect in RNT Cloth
     - Refactor code in app.js
     - Refactor code in Shop page
-  - useEffect as ComponentWillUnmount() in collection component
+  - (+) useEffect as ComponentWillUnmount() in collection component
+  - (-) Remove useEffect as ComponentWillUnmount() in collection component
+
 
 ## TODO to fix
 
