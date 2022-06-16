@@ -476,6 +476,7 @@ git push origin **branch_name
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
 - React Hook
+
   - useState and useEffect
   - Converting Class Component with useState
     - Refactor code in sign-in component using useState
@@ -485,7 +486,50 @@ git push origin **branch_name
     - Refactor code in Shop page
   - (+) useEffect as ComponentWillUnmount() in collection component
   - (-) Remove useEffect as ComponentWillUnmount() in collection component
+  - A quick recap of what we have learned about useEffect:
 
+        - ComponentDidMount
+
+          ```sh
+          //Class
+          componentDidMount() {
+          console.log('I just mounted!');
+          }
+
+          //Hooks
+          useEffect(() => {
+          console.log('I just mounted!');
+          }, [])
+          ```
+        - ComponentWillUnmount
+
+          ```sh
+          //Class
+
+          componentWillUnmount() {
+          console.log('I am unmounting');
+          }
+
+          //Hooks
+          useEffect(() => {
+          return () => console.log('I am unmounting');
+          }, [])
+          ```
+        - ComponentWillReceiveProps
+
+          ```sh
+         //Class
+          componentWillReceiveProps(nextProps) {
+              if (nextProps.count !== this.props.count) {
+                  console.log('count changed', nextProps.count);
+              }
+          }
+
+          //Hooks
+          useEffect(() => {
+              console.log('count changed', props.count);
+          }, [props.count])
+          ```
 
 ## TODO to fix
 
