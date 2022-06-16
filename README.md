@@ -1,3 +1,5 @@
+- [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/01-home-page.png)](https://github.com/Rianto-RNT/rnt-react-development)
+
 <h1 align="center">
   <br>
   RNT Cloth - React frontend web development Specifications
@@ -488,7 +490,7 @@ git push origin **branch_name
   - (-) Remove useEffect as ComponentWillUnmount() in collection component
   - A quick recap of what we have learned about useEffect:
 
-        - ComponentDidMount
+        // 1) ComponentDidMount
 
           ```sh
           //Class
@@ -500,10 +502,11 @@ git push origin **branch_name
           useEffect(() => {
           console.log('I just mounted!');
           }, [])
-          ```
-        - ComponentWillUnmount
 
-          ```sh
+
+        // 2) ComponentWillUnmount
+
+
           //Class
 
           componentWillUnmount() {
@@ -514,10 +517,10 @@ git push origin **branch_name
           useEffect(() => {
           return () => console.log('I am unmounting');
           }, [])
-          ```
-        - ComponentWillReceiveProps
 
-          ```sh
+        // 3) ComponentWillReceiveProps
+
+
          //Class
           componentWillReceiveProps(nextProps) {
               if (nextProps.count !== this.props.count) {
