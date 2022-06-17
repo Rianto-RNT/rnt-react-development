@@ -547,6 +547,8 @@ git push origin **branch_name
     - setup package.json file 
     - Create server.js file
     - Install nodemon
+- Backend payment route (stripe)
+  - implementing /payment route in server.js
 
 
 ## TODO to fix
