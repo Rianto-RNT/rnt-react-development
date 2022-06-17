@@ -637,7 +637,7 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 > /sign-in
 
-> /shop/collectionId
+> /shop/:collectionId
 
 # Acknowledgement
 
