@@ -1,4 +1,4 @@
-[![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/01-home-page.png)](https://github.com/Rianto-RNT/rnt-react-development)
+[![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/01-home-page.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 <h1 align="center">
   <br>
@@ -226,7 +226,7 @@ git push origin **branch_name
 - Redux Introduction
   - Concepts
   - Redux diagram
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/Redux-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/Redux-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Setting up redux, redux logger (middleware), redux tools kit
   - Create Root reducer
   - Create User reducer
@@ -234,8 +234,8 @@ git push origin **branch_name
   - Create User actions
   - Connect() and mapStateToProps in header component
   - Implementing User reducer and user action - log in the console
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-one.png)](https://github.com/Rianto-RNT/rnt-react-development)
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/user-reducer-action-two.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/user-reducer-action-one.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/user-reducer-action-two.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - implementing mapDispatchtoProps()
   - User redirect and user action type
   - Cart Component in header
@@ -249,8 +249,8 @@ git push origin **branch_name
   - toggle cart hidden in icon header cart
   - mapStateToProps currentUser and hidden toggle in cart dropdown component
   - Logger result return boolean (True / False):
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-true.png)](https://github.com/Rianto-RNT/rnt-react-development)
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/toggle-cart-hidden-false.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/toggle-cart-hidden-true.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/toggle-cart-hidden-false.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Add to cart styling
     - Implementing custom button in collection item
     - Invert style custom button
@@ -260,12 +260,12 @@ git push origin **branch_name
     - mapDispatchToProps add item in collection item component
     - refactor code in collection item preview
     - logger add item in redux:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-reducer-add-item.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/cart-reducer-add-item.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Adding multiple items to cart
     - Create cart utils
     - implementing cart utils fuction in cart reducer
     - show quantity item increase by 1 in logger redux:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/cart-utils-add-item-by-increase-quantity.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/cart-utils-add-item-by-increase-quantity.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Cart Item Component
     - cart item style
     - implementing cart item in cart dropdown menu
@@ -295,7 +295,7 @@ git push origin **branch_name
     - cart reducer return new array when remove some item in checkout page
     - mapItemToProps in checkout item componen and refactor the code
     - result for CLEAR_ITEM_FROM_CART in redux logger:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-item-from-cart.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/clear-item-from-cart.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - Increase and decrease feature in checkout item
     - styling the arrow increase-decrease quantity
     - new Remove Cart types
@@ -310,15 +310,15 @@ git push origin **branch_name
     - refactor root reducer
     - implementing persist gate in app index
     - logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/persist-in-redux-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/persist-in-redux-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/persist-in-redux-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/persist-in-redux-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
 - Directory State Into Redux
   - crate directory reducer (reusable/move product category data)
   - crate directory selector
     - pull into root reducer
   - refactor code in directory component
   - logger result for sections:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/directory-sections.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Collections state into redux
     - move shop data into redux folder
     - create shop reducer
@@ -378,7 +378,7 @@ git push origin **branch_name
     - Improve new function in firebase utils to store data into firestore
     - Implementing improve function in app.js
     - Little Diagram to store the data into firebase:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/quick-litle-diagram-to-store-data.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Bringing shop data to RNT Cloth app
     - Implementing new function in shop page
   - Adding Shop data to redux
@@ -408,8 +408,8 @@ git push origin **branch_name
     - Create and refactor code with new functions in shop actions
     - Implementing and refactor code in shop page
     - Fetching collections in redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/fetch-collections-start-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/fetch-collections-start-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/fetch-collections-start-2.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Debugging the Code
     - Create new shop selector to inverse loaded collection
     - Implementing selector in shop page.
@@ -440,8 +440,8 @@ git push origin **branch_name
     - Implementing user saga in root saga
     - Refactor code in app.js/app root
     - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/google-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/google-sign-in-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/google-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/google-sign-in-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Email Sign In into Sagas
     - Refactor code in user types
     - Refactor code in user Action
@@ -449,7 +449,7 @@ git push origin **branch_name
     - Refactor code in app js
     - Refactor code at sign-in component
     - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/email-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/email-sign-in-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Recreating persistence
     - Create new action types in user types (check user session)
     - Implementing types in user actions
@@ -464,8 +464,8 @@ git push origin **branch_name
     - Implementing user sagas in Header component (signout menu)
     - Create sign-in style and refactor code in sign-in component
     - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-start.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-out-success.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/sign-out-start.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/sign-out-success.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Clear Cart Sagas
     - Create new cart type
     - Implement cart types in cart action
@@ -474,8 +474,8 @@ git push origin **branch_name
     - Pull cart sagas into root sagas
     - Add function to fetch collection start
     - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/clear-cart-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/clear-cart-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/clear-cart-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Sign Up Saga
     - Create user types
     - Implementing user types in user action
@@ -483,8 +483,8 @@ git push origin **branch_name
     - Implementing new case statement in user reducer
     - Pull and implementing sign-up saga in sign-up component
     - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/rnt-clothing/src/assets/images/png/sign-up-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/sign-up-sagas-01.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/rnt-clothing/src/assets/images/png/sign-up-sagas-02.png)](https://github.com/Rianto-RNT/rnt-react-development)
 - React Hook
 
   - useState and useEffect
