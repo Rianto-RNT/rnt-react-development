@@ -164,8 +164,16 @@ git push origin **branch_name
 - [redux-persist](https://www.npmjs.com/package/redux-persist)
 - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
 - [styled-components](https://github.com/styled-components/styled-components)
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
-- [Redux Saga](https://github.com/redux-saga/redux-saga)
+- [redux-thunk](https://github.com/reduxjs/redux-thunk)
+- [redux-saga](https://github.com/redux-saga/redux-saga)
+- [nodemon](https://github.com/remy/nodemon)
+- [body-parser](https://github.com/expressjs/body-parser)
+- [compression](https://github.com/expressjs/compression)
+- [cors](https://github.com/expressjs/cors)
+- [dotenv](https://github.com/motdotla/dotenv)
+- [express](https://github.com/expressjs/express)
+- [stripe](https://github.com/stripe/stripe-node)
+- [concurently](https://github.com/open-cli-tools/concurrently)
 
 ## Demonstration
 
@@ -533,6 +541,13 @@ git push origin **branch_name
               console.log('count changed', props.count);
           }, [props.count])
           ```
+- Stripe Payment #2 (Backend)
+  - Creating Server inside the project
+    - Setup server
+    - setup package.json file 
+    - Create server.js file
+    - Install nodemon
+
 
 ## TODO to fix
 
