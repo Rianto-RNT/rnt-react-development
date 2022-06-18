@@ -542,18 +542,17 @@ git push origin **branch_name
               console.log('count changed', props.count);
           }, [props.count])
           ```
+
 - Stripe Payment #2 (Backend)
   - Creating Server inside the project
     - Setup server
-    - setup package.json file 
+    - setup package.json file
     - Create server.js file
     - Install nodemon
 - Backend payment route (stripe)
   - implementing /payment route in server.js
 - Connecting client to server
   - Setup Axios in stripe button component
-
-
 
 ## TODO to fix
 
@@ -615,7 +614,9 @@ git push origin **branch_name
 
 - [react-router-hooks-docs - Github React Training ](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/hooks.md)
 
+- [Fetch-POST-documentation ](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options)
 
+- [Heroku-config-documentation](https://devcenter.heroku.com/articles/config-vars)
 
 ## Future Updates
 
