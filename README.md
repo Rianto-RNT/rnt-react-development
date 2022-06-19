@@ -553,6 +553,8 @@ git push origin **branch_name
   - implementing /payment route in server.js
 - Connecting client to server
   - Setup Axios in stripe button component
+- Deployment to Production
+  - Push app to heroku with new payment success 
 
 ## TODO to fix
 
