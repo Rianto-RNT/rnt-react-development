@@ -557,6 +557,14 @@ git push origin **branch_name
   - Push app to heroku with new payment success
 - Context API
   - Setup app for context api
+  - Context Consumer + useContext Hook
+    - Create context directory
+    - Context consumer implementing in collection component
+    - Refactor using useContext Hook
+  - Context Provider
+    - Create current user context
+    - refactor code in app.js
+    - implementing useContext in header component (sign-in)
 
 ## TODO to fix
 
