@@ -554,7 +554,9 @@ git push origin **branch_name
 - Connecting client to server
   - Setup Axios in stripe button component
 - Deployment to Production
-  - Push app to heroku with new payment success 
+  - Push app to heroku with new payment success
+- Context API
+  - Setup app for context api
 
 ## TODO to fix
 
