@@ -565,6 +565,10 @@ git push origin **branch_name
     - Create current user context
     - refactor code in app.js
     - implementing useContext in header component (sign-in)
+  - Cart Context
+    - Create cart context
+    - implement cart context in header component
+    - pull cart context to cart icon component
 
 ## TODO to fix
 
