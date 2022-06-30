@@ -569,6 +569,11 @@ git push origin **branch_name
     - Create cart context
     - implement cart context in header component
     - pull cart context to cart icon component
+  - Provider Context pattern
+    - Create providers folder
+    - Create cart providers 
+    - Refactor code using new CartContext Provider (useContext Hook) 
+
 
 ## TODO to fix
 
