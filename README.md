@@ -641,6 +641,10 @@ git push origin **branch_name
 
 - [Heroku-config-documentation](https://devcenter.heroku.com/articles/config-vars)
 
+- [React-ContextAPI-documentation](https://reactjs.org/docs/context.html)
+
+- [useContext-documentation](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
