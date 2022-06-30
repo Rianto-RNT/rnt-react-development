@@ -569,10 +569,12 @@ git push origin **branch_name
     - Create cart context
     - implement cart context in header component
     - pull cart context to cart icon component
-  - Provider Context pattern
+  - Provider Context Pattern #1 
     - Create providers folder
     - Create cart providers 
     - Refactor code using new CartContext Provider (useContext Hook) 
+  - Provider Context Pattern #2
+    - Refactor code using new CartContext Provider (Remove item from cart, checkout, and item count - useContext Hook) 
 
 
 ## TODO to fix
