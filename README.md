@@ -147,11 +147,15 @@ git push origin **branch_name
 - [Firebase-admin](https://firebase.google.com/) - lets you interact with Firebase from privileged environments to perform actions
 - [Google Fonts](https://fonts.google.com/?query=open+sans+condensed&selection.family=Open+Sans+Condensed:300) - Great Font for your web app
 - [Redux](https://redux.js.org/introduction/getting-started) - Redux is a predictable state container for JavaScript apps.effortlessly within no time.
-- [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
+- [GraphQL](https://graphql.org/) - A query language for API
+- [Prisma](https://www.prisma.io/) - Build data-driven JavaScript & TypeScript apps in less time.
+- [Hasura](https://hasura.io/) - Instant GraphQL on all your data
+- [Apollo](https://www.apollographql.com/docs/apollo-server/) - The Apollo Supergraph Platform unifies GraphQL across your apps and services, unlocking faster delivery for your engineering teams.
 - [Git](https://git-scm.com) - Open source distributed version control system
 - [Cloudinary](https://cloudinary.com) - Effortlessly optimize, transform, upload and manage your cloud's assets.
 - [Stripe](https://stripe.com/) - Online Payment Processing API payment gateway
 - [Heroku](https://www.heroku.com/) - Cloud platform
+- [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
 
 ## NPM / YARN Packages Frontend Development
 
@@ -175,6 +179,7 @@ git push origin **branch_name
 - [stripe](https://github.com/stripe/stripe-node)
 - [concurently](https://github.com/open-cli-tools/concurrently)
 - [axios](https://github.com/axios/axios)
+- [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
 
 ## Demonstration
 
@@ -644,6 +649,10 @@ git push origin **branch_name
 - [React-ContextAPI-documentation](https://reactjs.org/docs/context.html)
 
 - [useContext-documentation](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+- [A quick step by step guide on how to set up your own GraphQL server](https://www.apollographql.com/tutorials/fullstack-quickstart/introduction)
+
+
 
 ## Future Updates
 
