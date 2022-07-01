@@ -604,8 +604,9 @@ query {
 }
 ```
 
-GraphQL playground result
-[![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - GraphQL playground result
+
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
   - Introduction to Apollo
     - Setup application (firebase, stripe and more...)
