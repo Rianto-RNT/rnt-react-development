@@ -574,13 +574,38 @@ git push origin **branch_name
     - Create cart context
     - implement cart context in header component
     - pull cart context to cart icon component
-  - Provider Context Pattern #1 
+  - Provider Context Pattern #1
     - Create providers folder
-    - Create cart providers 
-    - Refactor code using new CartContext Provider (useContext Hook) 
+    - Create cart providers
+    - Refactor code using new CartContext Provider (useContext Hook)
   - Provider Context Pattern #2
-    - Refactor code using new CartContext Provider (Remove item from cart, checkout, and item count - useContext Hook) 
+    - Refactor code using new CartContext Provider (Remove item from cart, checkout, and item count - useContext Hook)
+- GraphQL + Apollo
+  - Introduction to graphql
+    - REST backend server diagram
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/backend-diagram-rest.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - GraphQL backend server diagram
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/backend-diagram-graphql.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
+GraphQL Playground
+
+```sh
+query {
+  collections {
+    id
+    title
+    items {
+      id
+      imageUrl
+      name
+      price
+    }
+  }
+}
+```
+
+    - GraphQL playground result
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
@@ -651,8 +676,6 @@ git push origin **branch_name
 - [useContext-documentation](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 - [A quick step by step guide on how to set up your own GraphQL server](https://www.apollographql.com/tutorials/fullstack-quickstart/introduction)
-
-
 
 ## Future Updates
 
