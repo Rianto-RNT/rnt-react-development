@@ -685,6 +685,20 @@ query {
 
 - [A quick step by step guide on how to set up your own GraphQL server](https://www.apollographql.com/tutorials/fullstack-quickstart/introduction)
 
+- [Basic GraphQL types](https://graphql.org/graphql-js/basic-types/)
+
+- [Apollo-docs](https://www.apollographql.com/docs/react/)
+
+- [Get-started-apollo-react](https://www.apollographql.com/docs/react/get-started)
+
+- [Import-default-as-alias](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Importing_defaults)
+
+- [Apolo-cache](https://www.apollographql.com/docs/react/advanced/caching/)
+
+- [Docs-on-resolvers-apollo](https://www.apollographql.com/docs/apollo-server/data/resolvers/)
+
+- [React-Apollo-graphql-docs](https://www.apollographql.com/docs/react/api/react-apollo/#graphqlquery-configcomponent)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
