@@ -604,7 +604,13 @@ query {
 }
 ```
 
-    - GraphQL playground result
+GraphQL playground result
+[![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+
+  - Introduction to Apollo
+    - Setup application (firebase, stripe and more...)
+    - install apollo/client + graphql
+    - Setup Apollo in index.js
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
