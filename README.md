@@ -611,7 +611,8 @@ GraphQL playground result
     - Setup application (firebase, stripe and more...)
     - install apollo/client + graphql
     - Setup Apollo in index.js
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+    - Redux logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-data-response-result.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
