@@ -624,6 +624,9 @@ query {
   - GraphQL vs Redux Diagram
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-vs-redux-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/replace-graphql-with-apollo.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Mutation On The Client #1
+    - Create resolvers
+    - implementing resolvers and typeDefs in index.js
 
 ## TODO to fix
 
