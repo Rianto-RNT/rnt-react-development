@@ -627,6 +627,9 @@ query {
   - Mutation On The Client #1
     - Create resolvers
     - implementing resolvers and typeDefs in index.js
+  - Mutation On The Client #2
+    - Header container
+    - Cart-icon container
 
 ## TODO to fix
 

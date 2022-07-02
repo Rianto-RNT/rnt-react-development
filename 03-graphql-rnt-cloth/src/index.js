@@ -31,7 +31,7 @@ const client = new ApolloClient({
   resolvers,
 });
 
-client.writeData({
+client.writeQuery({
   data: {
     cartHidden: true,
   },

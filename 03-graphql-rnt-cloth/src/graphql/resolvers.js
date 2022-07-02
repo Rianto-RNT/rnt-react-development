@@ -1,10 +1,11 @@
-import { gql } from 'apollo-boost';
+import { gql } from '@apollo/client';
 
 export const typeDefs = gql`
   extend type Mutation {
     ToggleCartHidden: Boolean!
   }
 `;
+
 const GET_CART_HIDDEN = gql`
   {
     cartHidden @client
@@ -18,7 +19,7 @@ export const resolvers = {
         query: GET_CART_HIDDEN,
       });
 
-      cache.writeQuerty({
+      cache.writeQuery({
         query: GET_CART_HIDDEN,
         data: { cartHidden: !cartHidden },
       });
