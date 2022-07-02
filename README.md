@@ -618,6 +618,9 @@ query {
     - Create coleccetion overview container
     - Move query to container
     - Implementing the collections overview container
+  - Query With Variables
+    - Create collection container
+    - Implementing Collection container
 
 ## TODO to fix
 
