@@ -614,6 +614,10 @@ query {
     - Setup Apollo in index.js
     - Redux logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-data-response-result.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Apollo Container
+    - Create coleccetion overview container
+    - Move query to container
+    - Implementing the collections overview container
 
 ## TODO to fix
 
