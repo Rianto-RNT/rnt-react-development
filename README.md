@@ -591,7 +591,7 @@ git push origin **branch_name
     - Copy cart utils from redux to graphql folder
     - Add new function to resolver
     - implementing fuction in index, cart dropdown, and header
-
+  - Adding items with Apollo #2
 
 GraphQL Playground
 
@@ -633,10 +633,12 @@ query {
   - Mutation On The Client #1
     - Create resolvers
     - implementing resolvers and typeDefs in index.js
-  - Mutation On The Client #2
     - Header container
     - Cart-icon container
     - Implementing new graphql pattern in header and cart icon 
+  - Mutation On The Client #2
+   - Create collection item container
+   - Implementing collection item container to Collection preview component
 
 ## TODO to fix
 
