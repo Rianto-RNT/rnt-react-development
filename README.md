@@ -586,6 +586,12 @@ git push origin **branch_name
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/backend-diagram-rest.png)](https://github.com/Rianto-RNT/rnt-react-development)
     - GraphQL backend server diagram
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/backend-diagram-graphql.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Adding items with Apollo #1
+    - Create new cart dropdown container
+    - Copy cart utils from redux to graphql folder
+    - Add new function to resolver
+    - implementing fuction in index, cart dropdown, and header
+
 
 GraphQL Playground
 
@@ -630,6 +636,7 @@ query {
   - Mutation On The Client #2
     - Header container
     - Cart-icon container
+    - Implementing new graphql pattern in header and cart icon 
 
 ## TODO to fix
 
