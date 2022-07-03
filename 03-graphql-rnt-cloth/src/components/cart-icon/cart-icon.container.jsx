@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from '@apollo/client/react/hoc';
-import { gql } from '@apollo/client';
 import { flowRight } from 'lodash';
+import { gql } from '@apollo/client';
 
 import CartIcon from './cart-icon.component';
 
@@ -18,13 +18,10 @@ const GET_ITEM_COUNT = gql`
 `;
 
 const CartIconContainer = ({ data: { itemCount }, toggleCartHidden }) => (
-  <CartIcon
-    toggleCartHidden={toggleCartHidden}
-    itemCount={itemCount}
-  ></CartIcon>
+  <CartIcon toggleCartHidden={toggleCartHidden} itemCount={itemCount} />
 );
 
 export default flowRight(
-  graphql(GET_ITEM_COUNT),
-  graphql(TOGGLE_CART_HIDDEN, { name: 'toggleCartHidden' })
+  graphql(TOGGLE_CART_HIDDEN, { name: 'toggleCartHidden' }),
+  graphql(GET_ITEM_COUNT)
 )(CartIconContainer);

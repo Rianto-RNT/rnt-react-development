@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { Query, Mutation } from '@apollo/client/react/components';
+import { Query, Mutation,  } from '@apollo/client/react/components';
 import { gql } from '@apollo/client';
 
 import CartDropdown from './cart-dropdown.component';
@@ -19,7 +18,7 @@ const GET_CART_ITEMS = gql`
 
 const CartDropdownContainer = () => (
   <Mutation mutation={TOGGLE_CART_HIDDEN}>
-    {(toggleCartHidden) => (
+    {toggleCartHidden => (
       <Query query={GET_CART_ITEMS}>
         {({ data: { cartItems } }) => (
           <CartDropdown

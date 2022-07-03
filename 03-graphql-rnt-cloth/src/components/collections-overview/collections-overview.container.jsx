@@ -1,15 +1,11 @@
 import React from 'react';
-import {
-  Query,
-  // Mutation,
-  // Subscription
-} from '@apollo/client/react/components';
+import { Query } from '@apollo/client/react/components';
 import { gql } from '@apollo/client';
 
 import CollectionsOverview from './collections-overview.component';
 import Spinner from '../spinner/spinner.component';
 
-const GET_COLLECIONS = gql`
+const GET_COLLECTIONS = gql`
   {
     collections {
       id
@@ -25,11 +21,8 @@ const GET_COLLECIONS = gql`
 `;
 
 const CollectionsOverviewContainer = () => (
-  <Query query={GET_COLLECIONS}>
-    {({ loading, error, data }) => {
-      console.log({ loading });
-      console.log({ error });
-      console.log({ data });
+  <Query query={GET_COLLECTIONS}>
+    {({ loading, data }) => {
       if (loading) return <Spinner />;
       return <CollectionsOverview collections={data.collections} />;
     }}
