@@ -34,7 +34,8 @@ const client = new ApolloClient({
 client.writeQuery({
   data: {
     cartHidden: true,
-    cartItems: []
+    cartItems: [],
+    itemCount: 0,
   },
 });
 

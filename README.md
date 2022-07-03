@@ -180,6 +180,7 @@ git push origin **branch_name
 - [concurently](https://github.com/open-cli-tools/concurrently)
 - [axios](https://github.com/axios/axios)
 - [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
+- [lodash](https://github.com/lodash/lodash)
 
 ## Demonstration
 
