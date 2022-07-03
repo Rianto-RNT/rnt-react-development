@@ -611,35 +611,39 @@ query {
 }
 ```
 
-  - GraphQL playground result
+- GraphQL playground result
 
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-playground-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
-  - Introduction to Apollo
-    - Setup application (firebase, stripe and more...)
-    - install apollo/client + graphql
-    - Setup Apollo in index.js
-    - Redux logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-data-response-result.png)](https://github.com/Rianto-RNT/rnt-react-development)
-  - Apollo Container
-    - Create coleccetion overview container
-    - Move query to container
-    - Implementing the collections overview container
-  - Query With Variables
-    - Create collection container
-    - Implementing Collection container
-  - GraphQL vs Redux Diagram
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-vs-redux-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/replace-graphql-with-apollo.png)](https://github.com/Rianto-RNT/rnt-react-development)
-  - Mutation On The Client #1
-    - Create resolvers
-    - implementing resolvers and typeDefs in index.js
-    - Header container
-    - Cart-icon container
-    - Implementing new graphql pattern in header and cart icon 
-  - Mutation On The Client #2
-   - Create collection item container
-   - Implementing collection item container to Collection preview component
+- Introduction to Apollo
+  - Setup application (firebase, stripe and more...)
+  - install apollo/client + graphql
+  - Setup Apollo in index.js
+  - Redux logger result:
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-data-response-result.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- Apollo Container
+  - Create coleccetion overview container
+  - Move query to container
+  - Implementing the collections overview container
+- Query With Variables
+  - Create collection container
+  - Implementing Collection container
+- GraphQL vs Redux Diagram
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/graphql-vs-redux-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/replace-graphql-with-apollo.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- Mutation On The Client #1
+  - Create resolvers
+  - implementing resolvers and typeDefs in index.js
+  - Header container
+  - Cart-icon container
+  - Implementing new graphql pattern in header and cart icon
+- Mutation On The Client #2
+  - Create collection item container
+  - Implementing collection item container to Collection preview component
+- CartItem Count with Apollo
+  - Cart icon container refactor code
+  - refactor code using Apollo
+  
 
 ## TODO to fix
 
