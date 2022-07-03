@@ -1,6 +1,6 @@
 import React from 'react';
-import { Mutation, Query } from 'react-apollo';
-import { gql } from 'apollo-boost';
+import { Mutation, Query } from '@apollo/client/react/components';
+import { gql } from '@apollo/client';
 
 import App from './App';
 
@@ -20,10 +20,10 @@ const AppContainer = () => (
   <Query query={GET_CURRENT_USER}>
     {({ data: { currentUser } }) => (
       <Mutation mutation={SET_CURRENT_USER}>
-        {setCurrentUser => (
+        {(setCurrentUser) => (
           <App
             currentUser={currentUser}
-            setCurrentUser={user => {
+            setCurrentUser={(user) => {
               setCurrentUser({ variables: { user } });
             }}
           />

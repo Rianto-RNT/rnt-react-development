@@ -3,41 +3,30 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { createHttpLink } from 'apollo-link-http';
 
 import {
   ApolloClient,
   InMemoryCache,
   ApolloProvider,
-  // gql,
 } from '@apollo/client';
 
 import { store, persistor } from './redux/store';
 
 import './index.css';
-import App from './App';
+import { default as App } from './App/App.container';
 import { resolvers, typeDefs } from './graphql/resolvers';
+import { default as data } from './graphql/initial-data';
 
-const httpLink = createHttpLink({
-  uri: 'https://crwn-clothing.com',
-});
-
-const cache = new InMemoryCache();
+import reportWebVitals from './reportWebVitals';
 
 const client = new ApolloClient({
-  link: httpLink,
-  cache,
-  typeDefs,
+  uri: 'https://crwn-clothing.com',
+  cache: new InMemoryCache(),
   resolvers,
+  typeDefs,
 });
 
-client.writeQuery({
-  data: {
-    cartHidden: true,
-    cartItems: [],
-    itemCount: 0,
-  },
-});
+client.writeData({ data }); // TODO: Fix me! ====>>>> ERROR: Uncaught TypeError: client.writeData is not a function
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,3 +40,5 @@ root.render(
     </Provider>
   </ApolloProvider>
 );
+
+reportWebVitals();
