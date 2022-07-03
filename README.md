@@ -643,7 +643,10 @@ query {
 - CartItem Count with Apollo
   - Cart icon container refactor code
   - refactor code using Apollo
-  
+- Mobile Support (Main App - RNT Cloth)
+  - Mobile Responsive
+    - Create Global style using styled component library
+    - Remove App css
 
 ## TODO to fix
 
@@ -728,6 +731,8 @@ query {
 - [Docs-on-resolvers-apollo](https://www.apollographql.com/docs/apollo-server/data/resolvers/)
 
 - [React-Apollo-graphql-docs](https://www.apollographql.com/docs/react/api/react-apollo/#graphqlquery-configcomponent)
+
+- [_media-query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
 
 ## Future Updates
 
