@@ -12,25 +12,27 @@ import {
 import {
   SignInContainer,
   SignInTitle,
-  ButtonsBarContainer,
-} from "./sign-in.styles";
+  ButtonsBarContainer
+} from './sign-in.styles';
 
 const SignIn = ({ emailSignInStart, googleSignInStart }) => {
-  const [userCredentials, setUserCredentials] = useState({
-    email: "rianto.projects@gmail.com",
-    password: "test123",
+  const [userCredentials, setCredentials] = useState({
+    email: '',
+    password: ''
   });
 
   const { email, password } = userCredentials;
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async event => {
     event.preventDefault();
+
     emailSignInStart(email, password);
   };
 
-  const handleChange = (event) => {
+  const handleChange = event => {
     const { value, name } = event.target;
-    setUserCredentials({ ...userCredentials, [name]: value });
+
+    setCredentials({ ...userCredentials, [name]: value });
   };
 
   return (
@@ -40,25 +42,25 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
 
       <form onSubmit={handleSubmit}>
         <FormInput
-          name="email"
-          type="email"
+          name='email'
+          type='email'
           handleChange={handleChange}
           value={email}
-          label="email"
+          label='email'
           required
         />
         <FormInput
-          name="password"
-          type="password"
+          name='password'
+          type='password'
           value={password}
           handleChange={handleChange}
-          label="password"
+          label='password'
           required
         />
         <ButtonsBarContainer>
-          <CustomButton type="submit"> Sign in </CustomButton>
+          <CustomButton type='submit'> Sign in </CustomButton>
           <CustomButton
-            type="button"
+            type='button'
             onClick={googleSignInStart}
             isGoogleSignIn
           >
@@ -70,10 +72,13 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   );
 };
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   googleSignInStart: () => dispatch(googleSignInStart()),
   emailSignInStart: (email, password) =>
-    dispatch(emailSignInStart({ email, password })),
+    dispatch(emailSignInStart({ email, password }))
 });
 
-export default connect(null, mapDispatchToProps)(SignIn);
+export default connect(
+  null,
+  mapDispatchToProps
+)(SignIn);
