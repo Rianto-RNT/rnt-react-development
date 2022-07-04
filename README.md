@@ -644,9 +644,13 @@ query {
   - Cart icon container refactor code
   - refactor code using Apollo
 - Mobile Support (Main App - RNT Cloth)
-  - Mobile Responsive
+  - Mobile Responsiveness #1
     - Create Global style using styled component library
     - Remove App css
+  - Mobile Responsiveness #2
+    - Refactor styles using styled component
+    - Implementing styled component 
+
 
 ## TODO to fix
 
