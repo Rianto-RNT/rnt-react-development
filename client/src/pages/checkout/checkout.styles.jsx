@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CheckoutPageContainer = styled.div`
-  width: 55%;
+  width: 100%;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,10 @@ export const CheckoutPageContainer = styled.div`
     margin-left: auto;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 75%;
+  }
 `;
 
 export const CheckoutHeaderContainer = styled.div`
@@ -20,6 +24,11 @@ export const CheckoutHeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
+
+  @media screen and (max-width: 800px) {
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
 `;
 
 export const HeaderBlockContainer = styled.div`
@@ -40,6 +49,6 @@ export const TotalContainer = styled.div`
 export const WarningContainer = styled.div`
   text-align: center;
   margin-top: 40px;
-  font-size: 24px;
-  color: red;
+  font-size: 18px;
+  color: #0aa1dd;
 `;
