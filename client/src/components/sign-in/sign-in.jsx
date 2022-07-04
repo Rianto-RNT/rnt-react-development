@@ -46,7 +46,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           type='email'
           handleChange={handleChange}
           value={email}
-          label='email'
+          label='rianto.projects@gmail.com'
           required
         />
         <FormInput
