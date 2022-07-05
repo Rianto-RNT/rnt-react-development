@@ -649,8 +649,10 @@ query {
     - Remove App css
   - Mobile Responsiveness #2
     - Refactor styles using styled component
-    - Implementing styled component 
-
+    - Implementing styled component
+- React Peformance
+  - Code Spitting Introduction
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/react-peformance.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
@@ -736,7 +738,13 @@ query {
 
 - [React-Apollo-graphql-docs](https://www.apollographql.com/docs/react/api/react-apollo/#graphqlquery-configcomponent)
 
-- [_media-query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+- [\_media-query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+
+- [code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+- [react-lazy](https://reactjs.org/docs/code-splitting.html#reactlazy)
+
+- [react-suspense](https://reactjs.org/docs/code-splitting.html#suspense)
 
 ## Future Updates
 
