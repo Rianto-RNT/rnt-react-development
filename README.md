@@ -653,6 +653,8 @@ query {
 - React Peformance
   - Code Spitting Introduction
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/react-peformance.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- Introduction to react lazy
+  - import react lazy in RNT Cloth app
 
 ## TODO to fix
 

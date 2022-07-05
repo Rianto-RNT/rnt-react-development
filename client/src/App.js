@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-
-// import "./App.css";
 
 import Home from './pages/homepage/homepage';
 import Shop from './pages/shop/shop';
