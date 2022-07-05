@@ -652,9 +652,14 @@ query {
     - Implementing styled component
 - React Peformance
   - Code Spitting Introduction
-  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/react-peformance.png)](https://github.com/Rianto-RNT/rnt-react-development)
-- Introduction to react lazy
-  - import react lazy in RNT Cloth app
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/images/png/react-peformance.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Introduction to react lazy
+    - import react lazy in RNT Cloth app
+  - React lazy + Suspense
+    - Refactor code import using react lazy and suspen in app.js
+    - Create Spinner component and spinner sytles
+    - Implementing spinner in App.js
+
 
 ## TODO to fix
 
