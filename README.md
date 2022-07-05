@@ -665,6 +665,7 @@ query {
     - Implementing shop style in shop page
     - Create Error baoundary component and styles
     - Implementing error boundary in app.js
+  - Understanding  React.memo, PureComponent, shouldComponentUpdate
 
 ## TODO to fix
 
@@ -761,6 +762,14 @@ query {
 - [Error-boundaries](https://reactjs.org/docs/error-boundaries.html)
 
 - [404 Images](https://www.kapwing.com/404-illustrations?ref=producthunt)
+
+- [React-memo](https://reactjs.org/docs/react-api.html#reactmemo)
+
+- [React-pureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+
+- [React-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+)
+
 
 ## Future Updates
 
