@@ -659,7 +659,12 @@ query {
     - Refactor code import using react lazy and suspen in app.js
     - Create Spinner component and spinner sytles
     - Implementing spinner in App.js
-
+  - Error Boundaries
+    - Using lazy and suspense in shop page
+    - Create Shop style component
+    - Implementing shop style in shop page
+    - Create Error baoundary component and styles
+    - Implementing error boundary in app.js
 
 ## TODO to fix
 
@@ -752,6 +757,10 @@ query {
 - [react-lazy](https://reactjs.org/docs/code-splitting.html#reactlazy)
 
 - [react-suspense](https://reactjs.org/docs/code-splitting.html#suspense)
+
+- [Error-boundaries](https://reactjs.org/docs/error-boundaries.html)
+
+- [404 Images](https://www.kapwing.com/404-illustrations?ref=producthunt)
 
 ## Future Updates
 
