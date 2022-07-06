@@ -23,7 +23,7 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : https://rnt-clothing.herokuapp.com/
+Live demo (Feel free to visit) 👉 : https://rnt-clothings.herokuapp.com/
 
 ## API Usage
 
