@@ -181,6 +181,7 @@ git push origin **branch_name
 - [axios](https://github.com/axios/axios)
 - [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
 - [lodash](https://github.com/lodash/lodash)
+- [comression](https://github.com/expressjs/compression)
 
 ## Demonstration
 
@@ -670,6 +671,10 @@ query {
     - Create cart item styles
     - Implementing styles in comonent
     - Implementing React memo in cart item
+  - useCallback and useMemo
+  - Gzipping and Compression
+    - Install comression in node backend server
+    -  implementing compression in server.js
 
 ## TODO to fix
 
