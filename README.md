@@ -666,6 +666,11 @@ query {
     - Create Error baoundary component and styles
     - Implementing error boundary in app.js
   - Understanding  React.memo, PureComponent, shouldComponentUpdate
+  - Peformance in RNT Cloth
+    - Create cart item styles
+    - Implementing styles in comonent
+    - Implementing React memo in cart item 
+    
 
 ## TODO to fix
 
