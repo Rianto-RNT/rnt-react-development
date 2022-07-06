@@ -665,12 +665,11 @@ query {
     - Implementing shop style in shop page
     - Create Error baoundary component and styles
     - Implementing error boundary in app.js
-  - Understanding  React.memo, PureComponent, shouldComponentUpdate
+  - Understanding React.memo, PureComponent, shouldComponentUpdate
   - Peformance in RNT Cloth
     - Create cart item styles
     - Implementing styles in comonent
-    - Implementing React memo in cart item 
-    
+    - Implementing React memo in cart item
 
 ## TODO to fix
 
@@ -772,9 +771,9 @@ query {
 
 - [React-pureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)
 
-- [React-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-)
+- [React-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
+- [React-useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
 ## Future Updates
 
