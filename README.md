@@ -674,7 +674,11 @@ query {
   - useCallback and useMemo
   - Gzipping and Compression
     - Install comression in node backend server
-    -  implementing compression in server.js
+    - implementing compression in server.js
+  - Profiler - React
+    - Implementing react profiler in Home page with id = "Directory"
+    - Logger result:
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/profiler-directory.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
@@ -779,6 +783,10 @@ query {
 - [React-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
 - [React-useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+
+- [React-useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
+
+- [React-Profiler-API-Docs](https://reactjs.org/docs/profiler.html#usage)
 
 ## Future Updates
 
