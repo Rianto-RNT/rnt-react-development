@@ -681,8 +681,7 @@ query {
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/profiler-directory.png)](https://github.com/Rianto-RNT/rnt-react-development)
 - Progresive Web App (PWA)
   - Introduction to PWA
-  - Resouce for PWA in documentation
-  
+    - Resouce for PWA in documentation
 
 ## TODO to fix
 
