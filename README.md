@@ -687,7 +687,19 @@ query {
   - [Hacker News PWA](https://hnpwa.com/)
   - PWA - HTTPS
     - More information to HTTPS (Check the articles down bellow)
+  - Note for server.js
+    - Make one minor change to make sure our code doesn't require us to use https in development.
 
+```sh
+ if (process.env.NODE_ENV === 'production') {
+  app.use(enforce.HTTPS({ trustProtoHeader: true })); <==== Right here
+  app.use(express.static(path.join(__dirname, 'client/build')));
+
+  app.get('*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  });
+}
+```
 
 ## TODO to fix
 
