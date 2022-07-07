@@ -679,6 +679,10 @@ query {
     - Implementing react profiler in Home page with id = "Directory"
     - Logger result:
     - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/profiler-directory.png)](https://github.com/Rianto-RNT/rnt-react-development)
+- Progresive Web App (PWA)
+  - Introduction to PWA
+  - Resouce for PWA in documentation
+  
 
 ## TODO to fix
 
@@ -787,6 +791,12 @@ query {
 - [React-useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
 
 - [React-Profiler-API-Docs](https://reactjs.org/docs/profiler.html#usage)
+
+- [Submitting-PWA-to-3-apps-store](http://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/)
+
+- [PWA-android-vs-ios](https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7)
+
+- [Explore-PWA-from-arround-the-world](https://appsco.pe/)
 
 ## Future Updates
 
