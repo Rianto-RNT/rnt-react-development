@@ -685,6 +685,10 @@ query {
   - Progresive web app examples
   - [Website example for PWA](https://pokedex.org/)
   - [Hacker News PWA](https://hnpwa.com/)
+  - PWA - HTTPS
+    - More information to HTTPS (Check the articles down bellow)
+
+
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
@@ -800,6 +804,12 @@ query {
 - [Explore-PWA-from-arround-the-world](https://appsco.pe/)
 
 - [What-we-can-do-today-PWA](https://whatwebcando.today/)
+
+- [Developers-google-progresive-web-app](https://developers.google.com/search/blog/2016/11/building-indexable-progressive-web-apps?hl=en)
+
+- [Lets-encrypt](https://letsencrypt.org/)
+
+- [Cloud-flare](https://www.cloudflare.com/)
 
 ## Future Updates
 
