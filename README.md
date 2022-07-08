@@ -703,6 +703,8 @@ query {
 
   - PWA - App Manifest
     - Understanding manifest.json file
+  - PWA - service workers
+    - Understanding serviceWorkers.js file
 
 ## TODO to fix
 
@@ -827,6 +829,12 @@ query {
 - [Cloud-flare](https://www.cloudflare.com/)
 
 - [Favicon-generator](https://realfavicongenerator.net/)
+
+- [Create-react-PWA-github](https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa)
+
+- [Is-service-workers-ready?](https://jakearchibald.github.io/isserviceworkerready/)
+
+- [PWA-push-notifications](https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/)
 
 ## Future Updates
 
