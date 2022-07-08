@@ -701,6 +701,9 @@ query {
 }
 ```
 
+  - PWA - App Manifest
+    - Understanding manifest.json file
+
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
@@ -822,6 +825,8 @@ query {
 - [Lets-encrypt](https://letsencrypt.org/)
 
 - [Cloud-flare](https://www.cloudflare.com/)
+
+- [Favicon-generator](https://realfavicongenerator.net/)
 
 ## Future Updates
 
