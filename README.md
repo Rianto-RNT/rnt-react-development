@@ -170,18 +170,22 @@ git push origin **branch_name
 - [styled-components](https://github.com/styled-components/styled-components)
 - [redux-thunk](https://github.com/reduxjs/redux-thunk)
 - [redux-saga](https://github.com/redux-saga/redux-saga)
-- [nodemon](https://github.com/remy/nodemon)
-- [body-parser](https://github.com/expressjs/body-parser)
 - [compression](https://github.com/expressjs/compression)
-- [cors](https://github.com/expressjs/cors)
-- [dotenv](https://github.com/motdotla/dotenv)
-- [express](https://github.com/expressjs/express)
 - [stripe](https://github.com/stripe/stripe-node)
 - [concurently](https://github.com/open-cli-tools/concurrently)
 - [axios](https://github.com/axios/axios)
 - [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
 - [lodash](https://github.com/lodash/lodash)
-- [comression](https://github.com/expressjs/compression)
+
+## NPM Packages Backend Development
+
+- [nodemon](https://github.com/remy/nodemon)
+- [body-parser](https://github.com/expressjs/body-parser)
+- [cors](https://github.com/expressjs/cors)
+- [express](https://github.com/expressjs/express)
+- [express-sslify](https://www.npmjs.com/package/express-sslify)
+- [dotenv](https://github.com/motdotla/dotenv)
+- [compression](https://github.com/expressjs/compression)
 
 ## Demonstration
 
@@ -701,10 +705,16 @@ query {
 }
 ```
 
-  - PWA - App Manifest
-    - Understanding manifest.json file
-  - PWA - service workers
-    - Understanding serviceWorkers.js file
+- PWA - App Manifest
+  - Understanding manifest.json file
+- PWA - service workers
+  - Understanding serviceWorkers.js file
+- Converting RNT Clothing to PWA
+  - Create service worker js file
+  - Implementing service worker in index.js
+  - Icon/splashscreen in manifest.json file
+  - Add/ install express-sslify
+  - Updating new server.js file
 
 ## TODO to fix
 
