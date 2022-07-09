@@ -857,6 +857,14 @@ query {
 
 - [PWA-push-notifications](https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/)
 
+- [ Firebase - Structuring Cloud Firestore Security Rules](https://firebase.google.com/docs/firestore/security/rules-structure)
+
+- [ Firebase - Authentication](https://firebase.google.com/docs/firestore/security/rules-structure)
+
+- [ Firebase - Get multiple documents from a collection](https://firebase.google.com/docs/firestore/query-data/get-data#get_multiple_documents_from_a_collection)
+
+- [Firebase - Data Validation](https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
