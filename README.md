@@ -718,8 +718,12 @@ query {
 - Firebase Security
   - Firebase security rules
     - Allow write, create, and update.
-  - User security rule
+  - User security rule #1
     - Custom user auth rule in firebase console
+    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/firebase-user-security-rules-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - User security rule #2
+    - User security rules #2
+      - Allow Read/get and Write custom rules user in firestore
 
 ## TODO to fix
 
