@@ -715,6 +715,9 @@ query {
   - Icon/splashscreen in manifest.json file
   - Add/ install express-sslify
   - Updating new server.js file
+- Firebase Security
+  - Firebase security rules
+    - Allow write, create, and update.
 
 ## TODO to fix
 
