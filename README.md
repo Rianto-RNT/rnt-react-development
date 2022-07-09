@@ -724,6 +724,8 @@ query {
   - User security rule #2
     - User security rules #2
       - Allow Read/get and Write custom rules user in firestore
+  - Security rules #3
+    - Only Admin can create and update collections data in firestore database
 
 ## TODO to fix
 
