@@ -718,6 +718,8 @@ query {
 - Firebase Security
   - Firebase security rules
     - Allow write, create, and update.
+  - User security rule
+    - Custom user auth rule in firebase console
 
 ## TODO to fix
 
