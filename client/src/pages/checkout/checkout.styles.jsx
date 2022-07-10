@@ -53,5 +53,5 @@ export const WarningContainer = styled.div`
   text-align: center;
   margin-top: 40px;
   font-size: 18px;
-  color: #0AA1DD;
+  color: #0aa1dd;
 `;

@@ -8,17 +8,15 @@ import Spinner from '../../components/spinner/spinner';
 
 import { ShopPageContainer } from './shop.styles';
 
-// import CollectionsOverviewContainer from "../../components/collections-overview/collections-overview.container";
-// import CollectionPageContainer from "../collection/collection.container";
-
 const CollectionsOverviewContainer = lazy(() =>
   import('../../components/collections-overview/collections-overview.container')
 );
+
 const CollectionPageContainer = lazy(() =>
   import('../collection/collection.container')
 );
 
-const Shop = ({ fetchCollectionsStart, match }) => {
+export const ShopPage = ({ fetchCollectionsStart, match }) => {
   useEffect(() => {
     fetchCollectionsStart();
   }, [fetchCollectionsStart]);
@@ -44,4 +42,4 @@ const mapDispatchToProps = (dispatch) => ({
   fetchCollectionsStart: () => dispatch(fetchCollectionsStart()),
 });
 
-export default connect(null, mapDispatchToProps)(Shop);
+export default connect(null, mapDispatchToProps)(ShopPage);

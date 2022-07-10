@@ -18,7 +18,7 @@ import {
   WarningContainer,
 } from './checkout.styles';
 
-const CheckoutPage = ({ cartItems, total }) => (
+export const CheckoutPage = ({ cartItems, total }) => (
   <CheckoutPageContainer>
     <CheckoutHeaderContainer>
       <HeaderBlockContainer>
@@ -41,12 +41,12 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <TotalContainer>TOTAL: ${total}</TotalContainer>
-    <StripeCheckoutButton price={total} />
     <WarningContainer>
       *Please use the following test credit card for payments*
       <br />
-      4242 4242 4242 4242 - Exp: 01/24 - CVV: 424
+      4242 4242 4242 4242 - Exp: 04/24 - CVV: 424
     </WarningContainer>
+    <StripeCheckoutButton price={total} />
   </CheckoutPageContainer>
 );
 
