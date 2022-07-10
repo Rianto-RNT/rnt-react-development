@@ -9,7 +9,7 @@ import ErrorBoundary from './components/error-boundary/error-boundary';
 
 import { GlobalStyle } from './global.styles';
 
-import { selectCurrentUser } from './redux/user/user.selector';
+import { selectCurrentUser } from './redux/user/user.selectors';
 import { checkUserSession } from './redux/user/user.actions';
 
 const Home = lazy(() => import('./pages/homepage/homepage'));
@@ -34,7 +34,7 @@ const App = ({ checkUserSession, currentUser }) => {
             <Route exact path="/checkout" component={Checkout} />
             <Route
               exact
-              path="/sign-in"
+              path="/signin"
               render={() => (currentUser ? <Redirect to="/" /> : <Auth />)}
             />
           </Suspense>
