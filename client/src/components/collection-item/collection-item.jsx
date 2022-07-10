@@ -11,9 +11,8 @@ import {
   NameContainer,
   PriceContainer,
 } from './collection-item.styles';
-import '../../assets/scss/collection-item.style.scss';
 
-const CollectionItem = ({ item, addItem }) => {
+export const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
   return (
