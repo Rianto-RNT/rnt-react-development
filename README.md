@@ -743,6 +743,7 @@ query {
   - [Tape](https://github.com/substack/tape)
   - [Enzyme](https://github.com/enzymejs/enzyme)
   - Unit Tests: all small pure functions of an applications
+  - Integration tests: All about cross comunications between diferent units of code.
 
 ## TODO to fix
 
