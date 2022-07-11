@@ -745,6 +745,7 @@ query {
   - Unit tests: all small pure functions of an applications
   - Integration tests: All about cross comunications between diferent units of code.
   - Automation test: (End-to-end testing) are UI test that is always running inside a browser or browser like environment to simulate user behavior. such as typing, clicking, scrolling.
+  - Automation test libraries:
   - [Cypress](https://github.com/cypress-io/cypress)
   - [Puppeteer](https://github.com/puppeteer/puppeteer)
   - [playwright](https://github.com/microsoft/playwright)
