@@ -742,8 +742,16 @@ query {
   - [Ava](https://github.com/avajs/ava)
   - [Tape](https://github.com/substack/tape)
   - [Enzyme](https://github.com/enzymejs/enzyme)
-  - Unit Tests: all small pure functions of an applications
+  - Unit tests: all small pure functions of an applications
   - Integration tests: All about cross comunications between diferent units of code.
+  - Automation test: (End-to-end testing) are UI test that is always running inside a browser or browser like environment to simulate user behavior. such as typing, clicking, scrolling.
+  - [Cypress](https://github.com/cypress-io/cypress)
+  - [Puppeteer](https://github.com/puppeteer/puppeteer)
+  - [playwright](https://github.com/microsoft/playwright)
+  - [Nightwatch](https://github.com/nightwatchjs/nightwatch)
+  - [Web Driver Io](https://github.com/webdriverio/webdriverio)
+  - [Test Cafe](https://github.com/DevExpress/testcafe)
+  - [Nightmare](https://github.com/segmentio/nightmare)
 
 ## TODO to fix
 
