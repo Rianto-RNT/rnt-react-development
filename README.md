@@ -733,15 +733,16 @@ query {
     - Integration Tests
     - Automation Tests
   - Testing library
-  - [Jest](https://github.com/facebook/jest)  
-  - [Mocha](https://github.com/mochajs/mocha)  
-  - [Chai](https://github.com/chaijs/chai)  
-  - [Jasmine](https://github.com/jasmine/jasmine.github.io)  
-  - [Istanbul](https://github.com/istanbuljs)  
-  - [Sinon](https://github.com/sinonjs/)  
-  - [Ava](https://github.com/avajs/ava)  
-  - [Tape](https://github.com/substack/tape)  
-  - [Enzyme](https://github.com/enzymejs/enzyme)  
+  - [Jest](https://github.com/facebook/jest)
+  - [Mocha](https://github.com/mochajs/mocha)
+  - [Chai](https://github.com/chaijs/chai)
+  - [Jasmine](https://github.com/jasmine/jasmine.github.io)
+  - [Istanbul](https://github.com/istanbuljs)
+  - [Sinon](https://github.com/sinonjs/)
+  - [Ava](https://github.com/avajs/ava)
+  - [Tape](https://github.com/substack/tape)
+  - [Enzyme](https://github.com/enzymejs/enzyme)
+  - Unit Tests: all small pure functions of an applications
 
 ## TODO to fix
 
