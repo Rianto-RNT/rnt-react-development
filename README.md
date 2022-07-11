@@ -728,6 +728,11 @@ query {
     - Only Admin can create and update collections data in firestore database
 - Testing
   - Overview
+  - Breakdown types of test
+    - Unit Tests
+    - Integration Tests
+    - Automation Tests
+  
 
 ## TODO to fix
 
