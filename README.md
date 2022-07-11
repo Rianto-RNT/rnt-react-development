@@ -753,6 +753,8 @@ query {
   - [Web Driver Io](https://github.com/webdriverio/webdriverio)
   - [Test Cafe](https://github.com/DevExpress/testcafe)
   - [Nightmare](https://github.com/segmentio/nightmare)
+  - Testing Flow Diagram:
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/testing-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
 
 ## TODO to fix
 
