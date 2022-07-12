@@ -775,6 +775,9 @@ query {
 
   - First Test
     - test using it and expect function
+  - Writing Test
+    - Make new function with undefined and null
+    - Grouping the function
 
 ## TODO to fix
 
