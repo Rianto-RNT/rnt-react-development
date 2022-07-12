@@ -727,6 +727,7 @@ query {
   - Security rules #3
     - Only Admin can create and update collections data in firestore database
 - Testing
+
   - Overview
   - Breakdown types of test
     - Unit Tests
@@ -756,20 +757,24 @@ query {
   - Testing Flow Diagram:
   - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/testing-flow-diagram.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - Setting up Jest
+
     - Create new folder = test
     - npm init in test folder
     - Create script.js file
     - Write Simple function can return array with search and filter
     - Create script test js file with simple function
 
-```sh
-$ mkdir test
-$ cd test/
-$ npm init -y
-$ npm install --save-dev jest
-$ touch script.js
-$ touch script.test.js
-```
+    ```sh
+    $ mkdir test
+    $ cd test/
+    $ npm init -y
+    $ npm install --save-dev jest
+    $ touch script.js
+    $ touch script.test.js
+    ```
+
+  - First Test
+    - test using it and expect function
 
 ## TODO to fix
 
