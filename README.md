@@ -785,6 +785,8 @@ query {
     - Implementing function to fetch SWAPI
     - Create function Promise and async await
     - Create script-two test js file
+  - Asynchronous Test #2
+    - Write code that can pass script two js
 
 ## TODO to fix
 
