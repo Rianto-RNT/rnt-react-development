@@ -778,6 +778,13 @@ query {
   - Writing Test
     - Make new function with undefined and null
     - Grouping the function
+  - Asynchronous Tests #1
+    - API using [SWAPI](https://swapi.dev/)
+    - Install Fetch library [node-fetch](https://github.com/node-fetch/node-fetch)
+    - Create script-two js file
+    - Implementing function to fetch SWAPI
+    - Create function Promise and async await
+    - Create script-two test js file
 
 ## TODO to fix
 
