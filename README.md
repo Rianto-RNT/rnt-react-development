@@ -787,6 +787,8 @@ query {
     - Create script-two test js file
   - Asynchronous Test #2
     - Write code that can pass script two js
+  - Mock and Spies
+    -
 
 ## TODO to fix
 
@@ -925,6 +927,8 @@ query {
 - [ Firebase - Get multiple documents from a collection](https://firebase.google.com/docs/firestore/query-data/get-data#get_multiple_documents_from_a_collection)
 
 - [Firebase - Data Validation](https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation)
+
+- [Jest-cheat-sheet](https://github.com/sapegin/jest-cheat-sheet)
 
 ## Future Updates
 
