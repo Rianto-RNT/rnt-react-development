@@ -788,7 +788,7 @@ query {
   - Asynchronous Test #2
     - Write code that can pass script two js
   - Mock and Spies
-    -
+    - fuction number three mockFetch in script two test
 
 ## TODO to fix
 
