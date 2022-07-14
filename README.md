@@ -788,7 +788,10 @@ query {
   - Asynchronous Test #2
     - Write code that can pass script two js
   - Mock and Spies
-    - fuction number three mockFetch in script two test
+    - Fuction number three mockFetch in script two test
+  - Introduction to Enzyme
+    - Setup enzyme in robofriends app
+    
 
 ## TODO to fix
 
