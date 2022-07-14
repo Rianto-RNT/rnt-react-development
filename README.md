@@ -795,15 +795,17 @@ query {
     - Clone repo
     - Install package
   - Snapshot testing + code Coverage
-  - Testing Connected component #1 - Main page
-  - Testing Connected component #2 - Main Page & mainpage test
 
 ```sh
 npm test -- --coverage
 ```
 
-  - Testing stateful component
-    - Counter button testing 
+- Testing stateful component
+  - Counter button testing
+  - Testing Connected component #1 - Main page
+- Testing Connected component #2 - Main Page & mainpage test
+- Testing reducer
+- Testing actions
 
 ## TODO to fix
 
