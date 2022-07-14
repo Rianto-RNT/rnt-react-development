@@ -791,6 +791,10 @@ query {
     - Fuction number three mockFetch in script two test
   - Introduction to Enzyme
     - Setup enzyme in robofriends app
+  - Snapshot testing
+    - Clone repo
+    - Install package
+    - 
     
 
 ## TODO to fix
@@ -932,6 +936,8 @@ query {
 - [Firebase - Data Validation](https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation)
 
 - [Jest-cheat-sheet](https://github.com/sapegin/jest-cheat-sheet)
+
+- [SOLVED Empty ShallowWrapper Snapshot Object in Jest and Enzyme](https://backbencher.dev/articles/empty-shallowwrapper-snapshot-jest-enzyme)
 
 ## Future Updates
 
