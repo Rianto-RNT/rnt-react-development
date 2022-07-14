@@ -6,6 +6,7 @@ it('renders without crashing', () => {
   expect(shallow(<CounterButton />)).toMatchSnapshot();
 });
 
+// Testing counter button props, color, click
 it('correnctly increments the counter', () => {
   const wrapper = shallow(<CounterButton/>)
   expect(wrapper).toMatchSnapshot();

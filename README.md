@@ -800,6 +800,9 @@ query {
 npm test -- --coverage
 ```
 
+  - Testing stateful component
+    - Counter button testing 
+
 ## TODO to fix
 
 - All heading in admin dashboard not showing because sticky header.
