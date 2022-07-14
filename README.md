@@ -794,8 +794,11 @@ query {
   - Snapshot testing
     - Clone repo
     - Install package
-    - 
-    
+  - Snapshot testing + code Coverage
+
+```sh
+npm test -- --coverage
+```
 
 ## TODO to fix
 

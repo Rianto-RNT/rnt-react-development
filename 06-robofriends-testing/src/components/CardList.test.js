@@ -3,9 +3,9 @@ import { shallow } from 'enzyme';
 import CardList from './CardList';
 const filteredRobots = [{
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: 'Rianto RNT',
+    username: 'rian',
+    email: 'rian@rnt.io'
   }]
 
 it('renders without crashing', () => {
