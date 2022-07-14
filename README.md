@@ -949,6 +949,8 @@ npm test -- --coverage
 
 - [SOLVED Empty ShallowWrapper Snapshot Object in Jest and Enzyme](https://backbencher.dev/articles/empty-shallowwrapper-snapshot-jest-enzyme)
 
+- [Enzyme-documentation](https://airbnb.io/enzyme/docs/api/#api-reference)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
