@@ -795,7 +795,8 @@ query {
     - Clone repo
     - Install package
   - Snapshot testing + code Coverage
-  - Testing Connected component
+  - Testing Connected component #1 - Main page
+  - Testing Connected component #2 - Main Page & mainpage test
 
 ```sh
 npm test -- --coverage
