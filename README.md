@@ -960,6 +960,20 @@ npm test -- --coverage
 
 - [Enzyme-documentation](https://airbnb.io/enzyme/docs/api/#api-reference)
 
+- [webpack-docs](https://webpack.js.org/concepts/)
+
+- [What-is-regex](https://www.regexbuddy.com/regex.html)
+
+- [What-is-Babel](https://babeljs.io/docs/en/usage)
+
+- [babel-loader](https://github.com/babel/babel-loader)
+
+- [style-loader](https://github.com/webpack-contrib/style-loader#style-loader)
+
+- [css-loader](https://github.com/webpack-contrib/css-loader#css-loader)
+
+- [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/#installation)
+
 ## Future Updates
 
 - Make User interface more beautiful with react material UI
