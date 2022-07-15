@@ -810,6 +810,11 @@ npm test -- --coverage
   - Introduction to webpack and babel
     - setup webpack config js file
     - setup babelrc
+  - Webpack config
+    - css loader
+    - style loader
+    - html loader
+    - html webpack plugins
 
 ## TODO to fix
 
