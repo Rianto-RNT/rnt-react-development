@@ -1,8 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-playground.js
-.env
-
 # dependencies
 /node_modules
 /.pnp
@@ -24,3 +21,7 @@ playground.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Other
+playground.js
+.env
