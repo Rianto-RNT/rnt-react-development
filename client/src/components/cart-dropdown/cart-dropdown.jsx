@@ -36,6 +36,7 @@ export const CartDropdown = ({ cartItems, history, dispatch }) => (
   </CartDropdownContainer>
 );
 
+// map state to props
 const mapStateToProps = createStructuredSelector({
   cartItems: selectCartItems,
 });
