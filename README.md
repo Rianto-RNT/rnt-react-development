@@ -806,6 +806,10 @@ npm test -- --coverage
 - Testing Connected component #2 - Main Page & mainpage test
 - Testing reducer
 - Testing actions
+- Webpack + Babel
+  - Introduction to webpack and babel
+    - setup webpack config js file
+    - setup babelrc
 
 ## TODO to fix
 
