@@ -682,7 +682,7 @@ query {
   - Profiler - React
     - Implementing react profiler in Home page with id = "Directory"
     - Logger result:
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/profiler-directory.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/profiler-directory.png)](https://github.com/Rianto-RNT/rnt-react-development)
 - Progresive Web App (PWA)
   - Introduction to PWA
     - Resouce for PWA in documentation
@@ -720,7 +720,7 @@ query {
     - Allow write, create, and update.
   - User security rule #1
     - Custom user auth rule in firebase console
-    - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/firebase-user-security-rules-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/firebase-user-security-rules-1.png)](https://github.com/Rianto-RNT/rnt-react-development)
   - User security rule #2
     - User security rules #2
       - Allow Read/get and Write custom rules user in firestore
@@ -815,6 +815,19 @@ npm test -- --coverage
     - style loader
     - html loader
     - html webpack plugins
+- Build Gatsby Blog
+  - Introduction to Gatsby JS
+    - High order concept
+- [![](https://github.com/Rianto-RNT/rnt-react-development/blob/development/client/src/assets/gatsbyjs-high-order-concept.png)](https://github.com/Rianto-RNT/rnt-react-development)
+  - Starting a gatsby project
+  - Installation guide:
+
+```sh
+$ npm install -g gatsby-cli
+$ npx gatsby new gatsby-blog
+$ cd gatsby-blog
+$ npm run develop
+```
 
 ## TODO to fix
 
@@ -973,6 +986,43 @@ npm test -- --coverage
 - [css-loader](https://github.com/webpack-contrib/css-loader#css-loader)
 
 - [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/#installation)
+
+- [Gatsby Js](https://www.gatsbyjs.org/)
+
+- [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/)
+
+- [Gatsby-blog-starter](https://github.com/gatsbyjs/gatsby-starter-blog)
+
+- [Gatsby-plugin-library](https://www.gatsbyjs.org/plugins/)
+
+- [pages-documentation](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
+
+- [useStaticQuery](https://www.gatsbyjs.org/docs/use-static-query/)
+
+- [Markdown-cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+- [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/)
+
+- [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/)
+
+- [gatsby-node.js-API-documentation](https://www.gatsbyjs.org/docs/node-apis/)
+
+- [createFilePath](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/#createfilepath)
+
+- [createPages](https://www.gatsbyjs.org/docs/actions/#createPage)
+
+- [Tagged-template-literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates)
+
+- [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
+
+- [path](https://nodejs.org/api/path.html)
+
+- [gatsby-plugin-styled-components](https://www.npmjs.com/package/gatsby-plugin-styled-components)
+
+- [babel-plugin-styled-components](https://www.npmjs.com/package/babel-plugin-styled-components)
+
+- [netlify](https://www.netlify.com/)
+
 
 ## Future Updates
 
